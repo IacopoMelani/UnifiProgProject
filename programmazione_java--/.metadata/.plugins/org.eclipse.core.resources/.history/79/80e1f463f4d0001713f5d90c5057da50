@@ -1,0 +1,3 @@
+int firstLastDigitSum(int n) {
+	return 0;
+}

@@ -1,0 +1,26 @@
+double n = 11.52;
+
+int m2 = (int) n / 2;
+n = n % 2;
+
+int m1 = (int) n / 1;
+n = n % 1;
+
+int m50 = (int) n / 0.5;
+n = n % 0.5;
+
+int m20 = (int) n / 0.2;
+n = n % 0.2;
+
+int m10 = (int) n / 0.1;
+n = n % 0.1;
+
+int m05 = (int) n / 0.05;
+n = n % 0.05;
+
+int m02 = (int) n / 0.02;
+n = n % 0.02;
+
+int m01 = (int) n / 0.01;
+
+System.out.println(m2 + " " + m1 + " " + m50 + " " + m20 + " " + m10 + " " + m05 + " " + m02 + " " + m01);

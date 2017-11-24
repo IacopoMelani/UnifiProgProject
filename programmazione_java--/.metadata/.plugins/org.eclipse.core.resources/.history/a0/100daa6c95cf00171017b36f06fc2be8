@@ -1,0 +1,15 @@
+int gcdEuclidean(int a, int b){
+	if(a>b){
+		while(b!=0){
+			b = a % b;
+			a = b;			
+		}
+		return a;
+	} else {
+		while ( a != 0){
+			a = b % a;
+			b = a;
+		}
+		return b;		
+	}
+}

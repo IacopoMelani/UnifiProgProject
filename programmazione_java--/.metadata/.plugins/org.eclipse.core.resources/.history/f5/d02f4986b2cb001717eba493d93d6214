@@ -1,0 +1,8 @@
+boolean isWallDoable(int s, int b, int g) {
+	int nb = g / 5;
+	if (nb >= b){
+		int ns = g - nb * 5;
+		System.out.println(ns);
+	}
+	return true;
+}

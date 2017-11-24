@@ -1,0 +1,11 @@
+int firstLastDigitSum(int n) {
+	int lastDigit = n % 10;		// prendo l'ultima cifra digitata
+	int firstDigit = 0;
+	while(n != 0){				// con questo ciclo arrivo fino alla prima cifra digitata
+		firstDigit = n;
+		n = n / 10;
+	}
+	return firstDigit + lastDigit;		// infine le sommo ez
+}
+
+

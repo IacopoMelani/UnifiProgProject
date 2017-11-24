@@ -1,0 +1,18 @@
+long millisecondi = 31557600000L;
+
+int s = (int) millisecondi / 1000.0;
+int seconds = (int) s % 60;
+
+int m = s / 60;
+int minuts = m % 60;
+
+int h = m / 60;
+int hours = h % 24;
+
+int d = h / 24;
+int days = d % 365;
+
+int y = d / 365;
+
+System.out.println("y: " + y + " d: " + d + " h: " + hours + " m: " + minuts + " s: " + seconds);
+

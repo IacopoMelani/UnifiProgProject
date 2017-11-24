@@ -1,0 +1,14 @@
+int roundSum(int a, int b, int c) {
+	int sum = round(a) + round(b) + round(c);
+	return sum;
+}
+
+int round(int n) {
+	if (n % 10 >= 5)
+		n = (n / 10 + 1) * 10;
+	else
+		n = n / 10 * 10;
+	return n;
+}
+
+System.out.println(roundSum(12,13,14));

@@ -1,0 +1,24 @@
+//funzione che calcola le somme armoniche fino a x tali che risultino > 
+int harmonicSum(int x) {
+	double sum = 0;
+	int n = 0;
+	while (sum < x) {
+		n++;
+		sum = sum + harmonic(n);
+		
+	}
+	return n;
+}
+
+// funzione che dato un valore k calcola la somma armonica per i = 1 fino a k di 1/i
+double harmonic(int k) {
+	int i = 1;
+	double sum = 0;
+	while (i <= k) {
+		sum = sum + 1.0 / i;
+		i++;
+	}
+	return sum;
+}
+
+System.out.println(harmonicSum(3));

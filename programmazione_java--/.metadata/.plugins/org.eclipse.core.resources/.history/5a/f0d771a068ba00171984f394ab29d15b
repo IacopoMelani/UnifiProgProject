@@ -1,0 +1,17 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class Orario {
+  public static void main(String[] args) {
+    long millisecondi = 34533454;
+    double s = (millisecondi / 1000);
+    int seconds = ((int) (s % 60));
+    double m = (s / 60);
+    int minuts = ((int) (m % 60));
+    double h = (m / 60);
+    int hours = ((int) (h % 60));
+    double d = (h / 365);
+    int days = ((int) (d % 365));
+    System.out.println(((((((("d: " + Integer.valueOf(days)) + " h: ") + Integer.valueOf(hours)) + " m: ") + Integer.valueOf(minuts)) + " s: ") + Integer.valueOf(seconds)));
+  }
+}

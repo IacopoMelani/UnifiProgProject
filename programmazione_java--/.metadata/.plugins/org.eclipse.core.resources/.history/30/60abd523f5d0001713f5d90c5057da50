@@ -1,0 +1,6 @@
+int invertNumber(int n) {
+	while(n){
+		
+	}
+	return 0;
+}

@@ -1,0 +1,21 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class MakeWall {
+  public static boolean isWallDoable(int s, int b, int g) {
+    int nb = (g / 5);
+    if (((nb <= b) || (s >= g))) {
+      int ns = (g - (nb * 5));
+      if ((s >= ns)) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+    return false;
+  }
+  
+  public static void main(String[] args) {
+    System.out.println(MakeWall.isWallDoable(9, 0, 8));
+  }
+}

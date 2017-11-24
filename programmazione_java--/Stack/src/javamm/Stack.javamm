@@ -1,0 +1,10 @@
+import java.awt.datatransfer.SystemFlavorMap.SoftCache;
+
+void stampaStack(int[] stack, int testa) {
+	for (int i = testa; i > 0; i--) {
+		
+	}
+}
+
+int [] stack = {3, 5, 8};
+int testa = stack.length - 1;

@@ -1,0 +1,11 @@
+int integerSquareRoot(int n) {
+	int x = n;
+	do{
+	x--;	
+	}
+	while(x > n /x );
+	return x;
+}
+
+
+System.out.println();

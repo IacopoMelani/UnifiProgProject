@@ -1,0 +1,34 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class HarmonicSum {
+  public static int harmonicSum(int x) {
+    float sum = 0;
+    int i = 1;
+    while ((sum < x)) {
+      {
+        float _harmonic = HarmonicSum.harmonic(i);
+        float _plus = (sum + _harmonic);
+        sum = _plus;
+        i++;
+      }
+    }
+    return 0;
+  }
+  
+  public static float harmonic(int k) {
+    float i = 1;
+    float sum = 0;
+    do {
+      {
+        sum = (sum + (1 / i));
+        i++;
+      }
+    } while((i != k));
+    return sum;
+  }
+  
+  public static void main(String[] args) {
+    System.out.println(HarmonicSum.harmonic(10));
+  }
+}

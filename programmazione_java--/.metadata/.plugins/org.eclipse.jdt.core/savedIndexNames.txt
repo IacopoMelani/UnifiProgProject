@@ -1,0 +1,25 @@
+INDEX VERSION 1.130+/home/hope/Desktop/UNIFI/programmazione/programmazione_java--/.metadata/.plugins/org.eclipse.jdt.core
+66321764.index
+3374006759.index
+1203753426.index
+1132489647.index
+3762228617.index
+4128689294.index
+1889005546.index
+3103523947.index
+1315667800.index
+594313639.index
+4268679297.index
+3584654811.index
+1400670001.index
+3287349489.index
+2295236975.index
+1403999353.index
+2469041158.index
+2151751544.index
+1343361117.index
+553397318.index
+4156947970.index
+2881930900.index
+3069622640.index
+2855101167.index

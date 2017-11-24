@@ -1,0 +1,6 @@
+int firstLastDigitSum(int n) {
+	int lastDigit = n % 10;
+	int firstDigit = 0;
+	while(n / 10 != )
+	return 0;
+}

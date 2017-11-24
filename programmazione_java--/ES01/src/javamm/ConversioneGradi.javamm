@@ -1,0 +1,6 @@
+int celsius = 25;
+
+int fahrenheit = (9 / 5) * celsius + 32;
+
+System.out.println("celsius: " + celsius);
+System.out.println("fahrenheit: " + fahrenheit);
