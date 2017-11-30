@@ -1,0 +1,5 @@
+char[] upperCase(char[] a) {
+	int len = a.length;
+	
+	return null;
+}

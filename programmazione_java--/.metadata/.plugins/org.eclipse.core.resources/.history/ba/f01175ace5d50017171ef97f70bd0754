@@ -1,0 +1,13 @@
+char[] upperCase(char[] a) {
+	int len = a.length;
+	for (int i = 0; i < len - 1; i++) {
+		int charToInt = a[i];
+		if (charToInt < 96) {
+			charToInt = charToInt + 32;
+		}
+		a[i] = (char)charToInt;
+	}
+	return a;
+}
+
+

@@ -1,0 +1,23 @@
+char[] upperCase(char[] a) {
+	int len = a.length;
+	for (int i = 0; i < len - 1; i++) {
+		int value = a[i].
+		if (a[i] < 96) {
+			System.out.println("sds");
+		}
+	}
+	return a;
+}
+
+void printArray(char[] array) {
+	int n = array.length;
+	for (int i = 0; i < n; i++) {
+		System.out.print(array[i] + " ");
+	}
+}
+
+
+char[] a = {'c','i','a','o'};
+
+
+printArray(upperCase(a));

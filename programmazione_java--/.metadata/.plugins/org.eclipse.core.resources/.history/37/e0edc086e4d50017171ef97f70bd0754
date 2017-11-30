@@ -1,0 +1,4 @@
+char[] upperCase(char[] a) {
+	
+	return null;
+}

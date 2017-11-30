@@ -1,0 +1,25 @@
+char[] upperCase(char[] a) {
+	int len = a.length;
+	for (int i = 0; i < len - 1; i++) {
+		int charToInt = a[i];
+		if (charToInt < 96) {
+			sy
+			charToInt = charToInt + 32;
+		}
+		a[i] = (char)charToInt;
+	}
+	return a;
+}
+
+void printArray(char[] array) {
+	int n = array.length;
+	for (int i = 0; i < n; i++) {
+		System.out.print(array[i] + " ");
+	}
+}
+
+
+char[] a = {'c','i','a','o'};
+
+
+printArray(upperCase(a));
