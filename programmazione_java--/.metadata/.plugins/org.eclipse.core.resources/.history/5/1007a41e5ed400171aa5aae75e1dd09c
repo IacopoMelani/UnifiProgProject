@@ -1,0 +1,5 @@
+int[] arraySum(int[] a, int[] b) {
+	int n = a.length;
+	int[] c = new int[n];
+	return null;
+}

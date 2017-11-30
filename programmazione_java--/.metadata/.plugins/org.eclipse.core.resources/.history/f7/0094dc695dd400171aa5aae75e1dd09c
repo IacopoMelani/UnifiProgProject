@@ -1,0 +1,10 @@
+int scalarProduct(int[] a, int[] b) {
+	int prodotto = 0;
+	int n = a.length;
+	for (int i = 0; i < n; i++) {
+		prodotto = prodotto + (a[i] * b[i]);
+	}
+	return prodotto;
+}
+
+int[] a 

@@ -1,0 +1,15 @@
+long decimal(/*int[] a*/) {
+	//int n = a.length;
+	double decimal = 0;
+	decimal =  (Math.pow(2,5));
+	//for(int i = n)
+	return decimal;
+}
+
+long potenza(int num, int n){
+	
+	return 0;
+}
+
+
+System.out.println(decimal());

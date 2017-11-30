@@ -1,0 +1,14 @@
+long decimal(int[] a) {
+	int n = a.length;
+	int decimal = 0;
+	decimal = 0;
+	for(int i = n; i>0; i--){
+		
+	}
+	return decimal;
+}
+
+long potenza(int num, int n){
+	
+	return 0;
+}

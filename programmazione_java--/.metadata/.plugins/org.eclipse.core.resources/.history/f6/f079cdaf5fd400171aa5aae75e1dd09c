@@ -1,0 +1,6 @@
+long decimal(int[] a) {
+	int n = a.length;
+	int decimal = 0;
+	for(int i = )
+	return 0;
+}

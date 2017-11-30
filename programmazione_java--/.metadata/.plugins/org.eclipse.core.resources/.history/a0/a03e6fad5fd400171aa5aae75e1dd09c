@@ -1,0 +1,5 @@
+long decimal(int[] a) {
+	int n = a.length;
+	
+	return 0;
+}
