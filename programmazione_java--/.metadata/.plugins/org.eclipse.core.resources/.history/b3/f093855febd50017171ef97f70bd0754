@@ -1,0 +1,15 @@
+boolean palindrome(int[] a) {
+	int len = a.length;
+	int top = len - 1;
+	for (int down = 0; down < len; down++) {
+		if (a[down] != a[top])
+			return false;
+		top = top - 1;
+	}
+	return true;
+}
+
+
+int[] a = {3,8,1,};
+
+System.out.println(palindrome(a));

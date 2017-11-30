@@ -1,0 +1,8 @@
+boolean palindrome(int[] a) {
+	int len = a.length;
+	int top
+	for(int down = 0;i < len; i++){
+		
+	}
+	return true;
+}

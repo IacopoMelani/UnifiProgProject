@@ -1,0 +1,5 @@
+boolean palindrome(int[] a) {
+	int len = a.length;
+	
+	return true;
+}

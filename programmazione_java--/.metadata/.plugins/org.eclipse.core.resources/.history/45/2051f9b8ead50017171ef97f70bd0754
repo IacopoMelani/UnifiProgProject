@@ -1,0 +1,4 @@
+boolean palindrome(int[] a) {
+	
+	return true;
+}
