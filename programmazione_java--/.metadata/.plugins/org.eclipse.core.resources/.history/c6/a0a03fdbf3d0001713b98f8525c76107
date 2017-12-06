@@ -1,6 +1,0 @@
-int integerSquareRoot(int n) {
-	int x = n;
-	do
-	while(x > n /x );
-	return 0;
-}

@@ -1,0 +1,19 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class SelectionSort {
+  public static void selectionSort(int[] a) {
+    int indiceProssimoMinimo = 0;
+    int min = 0;
+    int temp = 0;
+    for (int i = 0; (i < a.length); i++) {
+      {
+        min = a[i];
+        indiceProssimoMinimo = i;
+      }
+    }
+  }
+  
+  public static void main(String[] args) {
+  }
+}

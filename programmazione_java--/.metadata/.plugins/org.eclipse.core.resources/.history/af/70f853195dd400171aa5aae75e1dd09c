@@ -1,5 +1,0 @@
-int scalarProduct(int[] a, int[] b) {
-	int prodotto = 0;
-	int n = a.le
-	return 0;
-}

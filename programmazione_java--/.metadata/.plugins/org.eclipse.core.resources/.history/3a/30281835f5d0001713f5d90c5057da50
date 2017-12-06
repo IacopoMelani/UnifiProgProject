@@ -1,7 +1,0 @@
-int invertNumber(int n) {
-	int x  = 0;
-	while(n != 0){
-		x = n
-	}
-	return 0;
-}

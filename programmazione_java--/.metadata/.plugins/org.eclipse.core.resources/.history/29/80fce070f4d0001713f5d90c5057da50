@@ -1,4 +1,0 @@
-int firstLastDigitSum(int n) {
-	lastDigit = n % 10;
-	return 0;
-}

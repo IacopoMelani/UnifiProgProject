@@ -1,0 +1,10 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class SelectionSort {
+  public static void selectionSort(int[] a) {
+  }
+  
+  public static void main(String[] args) {
+  }
+}
