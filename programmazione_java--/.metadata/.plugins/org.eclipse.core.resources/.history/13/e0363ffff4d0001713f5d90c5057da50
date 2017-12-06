@@ -1,3 +1,0 @@
-int invertNumber(int n) {
-	return 0;
-}

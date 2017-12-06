@@ -1,5 +1,0 @@
-int[] arraySum(int[] a, int[] b) {
-	int n = a.length;
-	int[n] c;
-	return null;
-}

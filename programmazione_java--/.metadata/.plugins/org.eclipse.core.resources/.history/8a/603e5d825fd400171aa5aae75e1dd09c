@@ -1,3 +1,0 @@
-long decimal(int[] a) {
-	return 0;
-}

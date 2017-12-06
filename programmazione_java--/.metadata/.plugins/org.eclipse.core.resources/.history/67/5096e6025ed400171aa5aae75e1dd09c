@@ -1,3 +1,0 @@
-int[] arraySum(int[] a, int[] b) {
-	return null;
-}

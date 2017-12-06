@@ -1,7 +1,0 @@
-package javamm;
-
-@SuppressWarnings("all")
-public class GcdEuclidean {
-  public static void main(String[] args) {
-  }
-}
