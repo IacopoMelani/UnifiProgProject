@@ -69,40 +69,34 @@ public class StrikeBall {
   }
   
   public static int ball(int n, int m) {
-    int[] cifre = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
     int ball = 0;
-    int tempN = 0;
-    int tempM = 0;
-    int tempBallN = 0;
-    int tempBallM = 0;
-    int restoN = 0;
-    int restoM = 0;
-    for (int i = 0; (i < cifre.length); i++) {
-      {
-        tempN = n;
-        tempM = m;
-        tempBallN = 0;
-        tempBallM = 0;
-        do {
-          {
-            restoN = (tempN % 10);
-            restoM = (tempM % 10);
-            if (((restoN == i) && (restoN != restoM))) {
-              tempBallN = (tempBallN + 1);
-            }
-            if (((restoM == i) && (restoM != restoN))) {
-              tempBallM = (tempBallM + 1);
-            }
-            tempN = (tempN / 10);
-            tempM = (tempM / 10);
-          }
-        } while((tempN != 0));
-        int _min = StrikeBall.min(tempBallN, tempBallM);
-        int _plus = (ball + _min);
-        ball = _plus;
-      }
+    int[] frequencyN = StrikeBall.frequencyBall(n, m);
+    int[] frequencyM = StrikeBall.frequencyBall(m, n);
+    for (int i = 0; (i < frequencyN.length); i++) {
+      int _min = StrikeBall.min(frequencyN[i], frequencyM[i]);
+      int _plus = (ball + _min);
+      ball = _plus;
     }
     return ball;
+  }
+  
+  public static int[] frequencyBall(int n, int m) {
+    int[] f = new int[10];
+    int restoN = 0;
+    int restoM = 0;
+    while ((n != 0)) {
+      {
+        restoN = (n % 10);
+        restoM = (m % 10);
+        if ((restoN != restoM)) {
+          int _plus = (f[restoN] + 1);
+          f[restoN] = _plus;
+        }
+        n = (n / 10);
+        m = (m / 10);
+      }
+    }
+    return f;
   }
   
   public static int min(int n, int m) {

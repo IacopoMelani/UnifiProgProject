@@ -62,30 +62,30 @@ int strike(int n, int m) {
 }
 
 int ball(int n, int m) {
-	int[] cifre = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 	int ball = 0;
-	int tempN, tempM, tempBallN, tempBallM, restoN, restoM;
-
-	for (int i = 0; i < cifre.length; i++) {
-		tempN = n;
-		tempM = m;
-		tempBallN = 0;
-		tempBallM = 0;
-
-		do {
-			restoN = tempN % 10;
-			restoM = tempM % 10;
-			if (restoN == i && restoN != restoM)
-				tempBallN = tempBallN + 1;
-			if (restoM == i && restoM != restoN)
-				tempBallM = tempBallM + 1;
-			tempN = tempN / 10;
-			tempM = tempM / 10;
-		} while (tempN != 0);
-		ball = ball + min(tempBallN, tempBallM);
+	int[] frequencyN = frequencyBall(n, m);
+	int[] frequencyM = frequencyBall(m,n);
+	for(int i  = 0;i< frequencyN.length; i++){
+		ball = ball + min(frequencyN[i],frequencyM[i]);
 	}
 
 	return ball;
+}
+
+int[] frequencyBall(int n, int m) {
+	int[] f = new int[10];
+	int restoN = 0;
+	int restoM = 0;
+	while(n != 0){
+		restoN = n % 10;
+		restoM = m % 10;
+		if(restoN != restoM){
+			f[restoN] = f[restoN] + 1;
+		}
+		n = n / 10;
+		m = m / 10;
+	}
+	return f;
 }
 
 int min(int n, int m) {
@@ -94,6 +94,7 @@ int min(int n, int m) {
 	else
 		return m;
 }
+
 
 int n = 180712;
 int m = 211087;
