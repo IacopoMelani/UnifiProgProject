@@ -1,7 +1,0 @@
-package javamm;
-
-@SuppressWarnings("all")
-public class SelectionSort {
-  public static void main(String[] args) {
-  }
-}
