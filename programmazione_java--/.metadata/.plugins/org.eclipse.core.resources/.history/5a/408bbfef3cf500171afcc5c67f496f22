@@ -1,0 +1,16 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class HanoiTower {
+  public static void hanoiTower(int n, int s, int d) {
+    if ((n == 0)) {
+      String _plus = (Integer.valueOf(s) + "=>");
+      String _plus_1 = (_plus + Integer.valueOf(d));
+      System.out.println(_plus_1);
+    } else {
+    }
+  }
+  
+  public static void main(String[] args) {
+  }
+}

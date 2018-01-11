@@ -1,0 +1,21 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class HanoiTower {
+  public static void hanoiTower(int n, int s, int d) {
+    if ((n == 0)) {
+      String _plus = (Integer.valueOf(s) + "=>");
+      String _plus_1 = (_plus + Integer.valueOf(d));
+      System.out.println(_plus_1);
+    } else {
+      HanoiTower.hanoiTower((n - 1), s, (6 - (d + s)));
+      String _plus_2 = (Integer.valueOf(s) + "=>");
+      String _plus_3 = (_plus_2 + Integer.valueOf(d));
+      System.out.println(_plus_3);
+      HanoiTower.hanoiTower((n - 1), (6 - (d + s)), s);
+    }
+  }
+  
+  public static void main(String[] args) {
+  }
+}

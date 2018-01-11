@@ -1,0 +1,12 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class HanoiTower {
+  public static void hanoiTower(int n, int s, int d) {
+    if ((n > 0)) {
+    }
+  }
+  
+  public static void main(String[] args) {
+  }
+}
