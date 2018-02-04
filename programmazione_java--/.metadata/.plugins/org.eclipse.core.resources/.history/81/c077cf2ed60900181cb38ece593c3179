@@ -1,0 +1,87 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class GreedyCode {
+  public static char[] greedyCode(long n) {
+    return new char[10];
+  }
+  
+  public static int[][] frequences(int a) {
+    int[][] f = new int[2][10];
+    int r = 0;
+    for (int q = 0; (q < 10); q++) {
+      f[0][q] = q;
+    }
+    while ((a != 0)) {
+      {
+        r = (a % 10);
+        int _plus = (f[1][r] + 1);
+        f[1][r] = _plus;
+        a = (a / 10);
+      }
+    }
+    return f;
+  }
+  
+  public static void sortFrequencesMatrix(int[][] a) {
+    int indiceProssimoMinimo = 0;
+    int min = 0;
+    int temp0 = 0;
+    int temp1 = 0;
+    int i = 0;
+    int j = 0;
+    for (i = 0; (i < (a[1].length - 1)); i++) {
+      {
+        min = a[1][i];
+        indiceProssimoMinimo = i;
+        for (j = (i + 1); (j < a[1].length); j++) {
+          boolean _greaterEqualsThan = (a[1][j] >= min);
+          if (_greaterEqualsThan) {
+            min = a[1][j];
+            indiceProssimoMinimo = j;
+          }
+        }
+        GreedyCode.swap(a, i, indiceProssimoMinimo);
+      }
+    }
+  }
+  
+  public static void sortIndexFMatrix(int[][] a) {
+    int indiceProssimoMinimo = 0;
+    int min = 0;
+    int temp0 = 0;
+    int temp1 = 0;
+    int i = 0;
+    int j = 0;
+    for (i = 0; (i < (a[1].length - 1)); i++) {
+      {
+        min = a[0][i];
+        indiceProssimoMinimo = i;
+        for (j = (i + 1); (j < a[1].length); j++) {
+          if (((a[1][j] < min) && (a[1][j] == a[1][indiceProssimoMinimo]))) {
+            min = a[1][j];
+            indiceProssimoMinimo = j;
+          }
+        }
+        GreedyCode.swap(a, i, indiceProssimoMinimo);
+      }
+    }
+  }
+  
+  public static void swap(int[][] a, int x, int y) {
+    int temp0 = 0;
+    int temp1 = 0;
+    temp0 = a[0][x];
+    temp1 = a[1][x];
+    a[0][x] = a[0][y];
+    a[1][x] = a[1][y];
+    a[0][y] = temp0;
+    a[1][y] = temp1;
+  }
+  
+  public static void main(String[] args) {
+    int[][] f = GreedyCode.frequences(1234555231);
+    GreedyCode.sortFrequencesMatrix(f);
+    System.out.println();
+  }
+}

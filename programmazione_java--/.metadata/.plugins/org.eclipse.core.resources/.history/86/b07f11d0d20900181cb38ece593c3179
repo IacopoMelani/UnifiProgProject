@@ -1,0 +1,28 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class GreedyCode {
+  public static char[] greedyCode(long n) {
+    return new char[10];
+  }
+  
+  public static int[][] frequences(int a) {
+    int[][] f = new int[2][10];
+    int r = 0;
+    for (int q = 0; (q < 10); q++) {
+      f[0][q] = q;
+    }
+    while ((a != 0)) {
+      {
+        r = (a % 10);
+        int _plus = (f[1][r] + 1);
+        f[1][r] = _plus;
+        a = (a / 10);
+      }
+    }
+    return f;
+  }
+  
+  public static void main(String[] args) {
+  }
+}

@@ -2,7 +2,7 @@ package javamm;
 
 @SuppressWarnings("all")
 public class SelectionSort {
-  public static int[] selectionSort(int[] a) {
+  public static void selectionSort(int[] a) {
     int indiceProssimoMinimo = 0;
     int min = 0;
     int temp = 0;
@@ -24,7 +24,6 @@ public class SelectionSort {
         a[indiceProssimoMinimo] = temp;
       }
     }
-    return a;
   }
   
   public static void stampaArray(int[] a) {
@@ -37,6 +36,5 @@ public class SelectionSort {
   
   public static void main(String[] args) {
     int[] a = { 56, 43, 2, 78, 3, 11, 89, 4, 1, 101, 100 };
-    SelectionSort.stampaArray(SelectionSort.selectionSort(a));
   }
 }

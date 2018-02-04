@@ -1,8 +1,0 @@
-boolean partition(int[] a) {
-	return false;
-}
-
-
-void genBinary(int[] a, int b){
-	if(b==0)
-}

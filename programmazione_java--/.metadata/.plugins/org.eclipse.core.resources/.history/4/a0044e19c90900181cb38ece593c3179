@@ -1,0 +1,64 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class BinPacking {
+  public static int ffd(int[] a, int s) {
+    return 0;
+  }
+  
+  public static void putInGroup(int[] a, int[] group, int s) {
+    int k = 0;
+    group[0] = a[0];
+    for (int i = 1; (i < a.length); i++) {
+      int _plus = (group[k] + a[i]);
+      boolean _lessEqualsThan = (_plus <= s);
+      if (_lessEqualsThan) {
+        int _plus_1 = (group[k] + a[i]);
+        group[k] = _plus_1;
+      } else {
+        k = (k + 1);
+      }
+    }
+  }
+  
+  public static int[] createGroup(int[] a) {
+    int[] b = new int[a.length];
+    return b;
+  }
+  
+  public static void selectionSort(int[] a) {
+    int indiceProssimoMinimo = 0;
+    int min = 0;
+    int temp = 0;
+    int i = 0;
+    int j = 0;
+    for (i = 0; (i < (a.length - 1)); i++) {
+      {
+        min = a[i];
+        indiceProssimoMinimo = i;
+        for (j = (i + 1); (j < a.length); j++) {
+          boolean _greaterThan = (a[j] > min);
+          if (_greaterThan) {
+            min = a[j];
+            indiceProssimoMinimo = j;
+          }
+        }
+        temp = a[i];
+        a[i] = a[indiceProssimoMinimo];
+        a[indiceProssimoMinimo] = temp;
+      }
+    }
+  }
+  
+  public static void printArray(int[] a) {
+    for (int i = 0; (i < a.length); i++) {
+      System.out.println(a[i]);
+    }
+  }
+  
+  public static void main(String[] args) {
+    int[] a = { 2, 3, 1, 4, 2, 1, 1 };
+    int s = 4;
+    BinPacking.selectionSort(a);
+  }
+}

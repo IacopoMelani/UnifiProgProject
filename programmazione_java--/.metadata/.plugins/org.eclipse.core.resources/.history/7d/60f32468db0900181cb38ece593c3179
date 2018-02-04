@@ -1,0 +1,85 @@
+char[] greedyCode(long n) {
+	char c = new char[10];
+	int[][] f = frequences(n);
+	sortFrequencesMatrix(f);
+	sortIndexFMatrix(f);
+	c = createCodex(f);
+	return c;
+}
+
+char[] createCodex(int[][] f){
+	char[] c = new char[10];
+	char l = 97;
+	int k = 97;
+	for(int i = 0; i < c.length; i++){
+		c[f[0][i]] = l;
+		l++;
+	}
+	return c;
+}
+
+int[][] frequences(long a) {
+	int[][] f = new long[2][10];
+	long r = 0;
+	for (int q = 0; q < 10; q++) {
+		f[0][q] = q;
+	}
+	while (a != 0) {
+		r = a % 10;
+		f[1][r] = f[1][r] + 1;
+		a = a / 10;
+	}
+	return f;
+}
+
+void sortFrequencesMatrix(int[][] a) {
+	int indiceProssimoMinimo, min, temp0, temp1, i, j;
+	for (i = 0; i < a[1].length - 1; i++) {
+		min = a[1][i];
+		indiceProssimoMinimo = i;
+		for (j = i + 1; j < a[1].length; j++) {
+			if (a[1][j] >= min) {
+				min = a[1][j];
+				indiceProssimoMinimo = j;
+			}
+		}
+		
+		swap(a,i,indiceProssimoMinimo);
+
+	}
+}
+
+void sortIndexFMatrix(int[][] a) {
+	int indiceProssimoMinimo, min, temp0, temp1, i, j;
+	for (i = 0; i < a[1].length - 1; i++) {
+		min = a[0][i];
+		indiceProssimoMinimo = i;
+		for (j = i + 1; j < a[1].length; j++) {
+			if (a[0][j] < min && a[1][j] == a[1][indiceProssimoMinimo]) {
+				min = a[0][j];
+				indiceProssimoMinimo = j;
+			}
+		}
+		
+		swap(a,i,indiceProssimoMinimo);
+
+	}
+}
+
+void swap(int[][] a, int x, int y) {
+	int temp0, temp1;
+	temp0 = a[0][x];
+	temp1 = a[1][x];
+	a[0][x] = a[0][y];
+	a[1][x] = a[1][y];
+	a[0][y] = temp0;
+	a[1][y] = temp1;
+}
+
+int[][] f = frequences(122721);
+sortFrequencesMatrix(f);
+sortIndexFMatrix(f);
+char[] c = createCodex(f);
+System.out.println();
+
+

@@ -1,3 +1,0 @@
-int setPacking(byte[][] a) {
-	return 0;
-}

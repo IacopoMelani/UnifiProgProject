@@ -8,6 +8,10 @@
 			<item value=""/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="/home/hope/Desktop/esercizi/zip/setpacking.zip"/>
+			<item value="/home/hope/Desktop/esercizi/zip/greedycode.zip"/>
+			<item value="/home/hope/Desktop/esercizi/zip/binpacking.zip"/>
+			<item value="/home/hope/Desktop/esercizi/zip/partitioner.zip"/>
 			<item value="/home/hope/Desktop/esercizi/zip/ksubsetsum.zip"/>
 			<item value="/home/hope/Desktop/esercizi/zip/change.zip"/>
 			<item value="/home/hope/Desktop/esercizi/zip/intervalmerge.zip"/>

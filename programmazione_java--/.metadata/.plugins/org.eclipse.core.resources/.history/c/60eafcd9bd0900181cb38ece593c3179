@@ -1,3 +1,0 @@
-boolean partition(int[] a) {
-	return false;
-}
