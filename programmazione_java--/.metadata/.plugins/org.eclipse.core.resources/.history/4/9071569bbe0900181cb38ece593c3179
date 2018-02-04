@@ -1,0 +1,35 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class Partitioner {
+  public static boolean partition(int[] a) {
+    return false;
+  }
+  
+  public static void genBinary(int[] a, int[] cpa, int b) {
+    if ((b == 0)) {
+      System.out.println();
+    } else {
+      a[(b - 1)] = 0;
+      Partitioner.genBinary(a, cpa, (b - 1));
+      a[(b - 1)] = 1;
+      Partitioner.genBinary(a, cpa, (b - 1));
+    }
+  }
+  
+  public static boolean findPartition(int[] a) {
+    boolean ris = false;
+    return ris;
+  }
+  
+  public static int[] copyArray(int[] a) {
+    int[] b = new int[a.length];
+    for (int i = 0; (i < a.length); i++) {
+      b[i] = a[i];
+    }
+    return b;
+  }
+  
+  public static void main(String[] args) {
+  }
+}

@@ -1,0 +1,37 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class OverAverage {
+  public static int[] overAverage(int[] a) {
+    return null;
+  }
+  
+  public static int average(int[] a) {
+    int ris = 0;
+    for (int i = 0; (i < a.length); i++) {
+      int _plus = (a[i] + ris);
+      ris = _plus;
+    }
+    int _length = a.length;
+    return (ris / _length);
+  }
+  
+  public static int copyOverAverage(int[] a, int[] b, int av) {
+    int k = 0;
+    for (int i = 0; (i < a.length); i++) {
+      boolean _greaterThan = (a[i] > av);
+      if (_greaterThan) {
+        b[k] = a[i];
+        k = (k + 1);
+      }
+    }
+    return k;
+  }
+  
+  public static void main(String[] args) {
+    int[] a = { 1, 2, 3, 4, 5 };
+    int[] b = new int[5];
+    OverAverage.copyOverAverage(a, b, 2);
+    System.out.println();
+  }
+}

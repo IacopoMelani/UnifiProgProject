@@ -1,0 +1,51 @@
+boolean kSubsetSum(int[] a, int k, int s) {
+	int[] cpa = copiaArray(a);
+	boolean ris = genBinary(a, cpa, a.length, s, k);
+	return ris;
+}
+
+void genBinary(int[] a, int[] cpa, int b, int s, int r) {
+	boolean ris = false;
+	if (b == 0 && kSumArray(cpa, a, s)) {
+		ris = true;
+		return ris;
+	} else {
+		if (r < b) {
+			a[b - 1] = 0;
+			genBinary(a, cpa, b - 1, s, r);
+		}
+		if (r > 0) {
+			a[b - 1] = 1;
+			genBinary(a, cpa, b - 1, s, r - 1);
+		}
+		return ris;
+	}
+}
+
+boolean kSumArray(int[] a, int[] binary, int s) {
+	boolean ris = false;
+	int sum = 0;
+	for (int i = 0; i < a.length; i++) {
+		if (binary[i] == 1) {
+			sum = sum + a[i];
+		}
+	}
+	if (sum == s) {
+		ris = true;
+	}
+	return ris;
+}
+
+int[] copiaArray(int[] a){
+	int[] b = new int[a.length];
+	for(int i = 0; i<a.length; i++){
+		b[i] = a[i];
+	}
+	return b;
+}
+
+
+int[] a = {1, 2, 2, 6, 7, 7, 20};
+int[] b = {1, 1, 1, 0, 0, 0, 1};
+boolean ris = kSubsetSum(a, 4, 25);
+System.out.println(ris);

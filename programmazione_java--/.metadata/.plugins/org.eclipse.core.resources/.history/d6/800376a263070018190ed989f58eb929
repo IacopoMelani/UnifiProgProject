@@ -1,0 +1,44 @@
+boolean armstrong(int n) {
+	int a = calculateArmstrong(n);
+	if
+	return false;
+}
+
+int powerOfdigit(int n, int digit) {
+	int ris = n;
+	for (int i = 1; i < digit; i++) {
+		ris = ris * n;
+	}
+	return ris;
+}
+
+int contDigit(int n) {
+	int digit = 0;
+	if (n == 0) {
+		return 1;
+	}
+	while (n != 0) {
+		n = n / 10;
+		digit = digit + 1;
+	}
+	return digit;
+}
+
+int calculateArmstrong(int n) {
+	int digit = contDigit(n);
+	int ris = 0;
+	int d = 0;
+	while (n != 0) {
+		d = n % 10;
+		ris = ris + powerOfdigit(d, digit);
+		n = n / 10;
+	}
+	return ris;
+}
+
+int n = 2;
+
+System.out.println(calculateArmstrong(153));
+System.out.println(n);
+
+

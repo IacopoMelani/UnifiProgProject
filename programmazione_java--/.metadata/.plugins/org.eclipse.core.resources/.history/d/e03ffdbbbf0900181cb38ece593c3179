@@ -1,0 +1,51 @@
+boolean partition(int[] a) {
+	int[] b = copyArray(a);
+	int ris = findPartition(a,b);
+	return false;
+}
+
+void genBinary(int[] a, int[] cpa, int b) {
+	if (b == 0) {
+		boolean ris = find
+	} else {
+		a[b - 1] = 0;
+		genBinary(a, cpa, b - 1);
+		a[b - 1] = 1;
+		genBinary(a, cpa, b - 1);
+	}
+}
+
+boolean findPartition(int[] binary, int[] cpa) {
+	boolean ris = false;
+	int sum = sumArray(cpa);
+	int s = 0;
+	if (sum % 2 == 0) {
+		for(int i = 0; i < cpa.length; i++){
+			if(binary[i] == 1){
+				s = cpa[i] + s;
+			}
+		}
+		if(s = sum/2){
+			ris = true;
+		}
+		return ris;
+	} else {
+		return ris;
+	}
+}
+
+int[] copyArray(int[] a) {
+	int[] b = new int[a.length];
+	for (int i = 0; i < a.length; i++) {
+		b[i] = a[i];
+	}
+	return b;
+}
+
+int sumArray(int[] a) {
+	int sum = 0;
+	for (int i = 0; i < a.length; i++) {
+		sum = sum + a[i];
+	}
+	return sum;
+}

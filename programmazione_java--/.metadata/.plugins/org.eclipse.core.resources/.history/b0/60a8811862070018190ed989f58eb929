@@ -1,0 +1,25 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class Armstrong {
+  public static boolean armstrong(int n) {
+    return false;
+  }
+  
+  public static int contDigit(int n) {
+    int digit = -1;
+    while ((n != 0)) {
+      {
+        n = (n / 10);
+        digit = (digit + 1);
+      }
+    }
+    return (digit + 1);
+  }
+  
+  public static void main(String[] args) {
+    int n = 0;
+    System.out.println(Armstrong.contDigit(n));
+    System.out.println(n);
+  }
+}

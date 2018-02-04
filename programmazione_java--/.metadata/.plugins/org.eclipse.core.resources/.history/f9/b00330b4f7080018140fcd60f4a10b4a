@@ -1,0 +1,49 @@
+int change(int[] c, int r) {
+	int coin = 0;
+	selectionSort(c);
+	while(r != 0){
+		for(int i = 0; i<c.length; i++){
+			int[] ris = oneCoinChange(r,c[i]);
+			
+		}
+	}
+	return coin;
+}
+
+
+
+
+int[] oneCoinChange(int n, int c){
+	int coin = 0;
+	while(n >= c){
+		n = n - c;
+		coin = coin + 1;
+	}
+	return {n,coin};
+}
+
+
+void selectionSort(int[] a) {
+	int indiceProssimoMinimo, min, temp, i, j;
+	for (i = 0; i < a.length - 1; i++) {
+		min = a[i];
+		indiceProssimoMinimo = i;
+		for (j = i + 1; j < a.length; j++) {
+			if (a[j] > min) {
+				min = a[j];
+				indiceProssimoMinimo = j;
+			}
+		}
+		temp = a[i];
+		a[i] = a[indiceProssimoMinimo];
+		a[indiceProssimoMinimo] = temp;
+	}
+
+}
+
+int[] a = {23,15,11,1,223,345,54,2};
+selectionSort(a);
+System.out.println();
+
+
+S

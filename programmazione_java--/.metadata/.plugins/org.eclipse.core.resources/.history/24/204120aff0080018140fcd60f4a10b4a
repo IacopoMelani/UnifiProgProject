@@ -1,0 +1,57 @@
+int[][] intervalMerge(int[][] m) {
+	int[][] r = new int[m.length][2];
+	int k = putMerge(m,r);
+	int[][] matrix = compact(r,k);
+	return matrix;
+}
+
+//a,b - c,d   a<=c<=b
+//	int[][] r = new int[m.length + 1][2];
+int putMerge(int[][] m, int[][] r) {
+	int k = 0;
+	r[k] = new int[] {m[0][0],m[0][1]};
+	for(int i = 1; i<m.length; i++){
+		if(isInterval(r[k], m[i])){
+			r[k] = merge(r[k],m[i]);
+		} else {
+			k = k + 1;
+			r[k] = new int[] {m[i][0], m[i][1]};
+		}
+	}
+	return k;
+}
+
+boolean isInterval(int[] a, int[] b) {
+	boolean ris = false;
+	if (a[0] <= b[0] && b[0] <= a[1]) {
+		ris = true;
+	}
+	return ris;
+}
+
+int[] merge(int[] a, int[] b) {
+	int[] i = new int[2];
+
+	i[0] = a[0];
+	if(b[1] > a[1])
+	i[1] = b[1];
+	else
+	
+
+	return i;
+}
+
+int[][] compact(int[][] m, int k){
+	int[][] r = new int[k+1][2];
+	for(int i = 0; i<k+1; i++){
+		r[i][0] = m[i][0];
+		r[i][1] = m[i][1];
+	}
+	return r;
+}
+
+
+int[][] m = {{3,8},{5,18},{9,9},{15,19},{19,19}};
+int[][] r = intervalMerge(m);
+System.out.println();
+

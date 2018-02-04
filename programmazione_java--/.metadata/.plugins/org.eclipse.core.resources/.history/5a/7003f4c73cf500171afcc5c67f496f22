@@ -1,5 +1,0 @@
-void hanoiTower(int n, int s, int d){
-	if (n == 0){
-		System.out.println(s);
-	}
-}

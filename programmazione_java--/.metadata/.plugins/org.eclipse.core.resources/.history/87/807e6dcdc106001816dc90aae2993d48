@@ -1,0 +1,52 @@
+int[] overAverage(int[] a) {
+	int average = av
+	return b;
+}
+
+
+int average(int[] a){
+	int ris = 0;
+	for(int i = 0; i < a.length; i++){
+		ris = a[i] + ris;
+	}
+	
+	return ris / a.length;
+}
+
+int copyOverAverage(int[] a, int[] b, int av){
+		int k = 0;
+		for(int i = 0; i < a.length; i++){
+			if(a[i] > av){
+				b[k] = a[i];
+				k = k + 1;
+			}
+		}
+	return k;
+}
+
+int[] reWriteOverAverageArray(int[] a, int k){
+	int[] b = new int[k];
+	for(int i = 0; i < k; i++){
+		b[i] = a[i];
+	}
+	return b;
+}
+
+/*test average
+int[] a = {1,2,3,4,5};
+System.out.println(average(a));
+*/
+ 
+
+/* test copyOverAverage
+int[] a = {1,2,3,4,5};
+int[] b = new int[5];
+int k = copyOverAverage(a,b,2);
+System.out.println(k);
+*/
+
+
+int[] a = {1,2,3,0,0,0,0};
+int k = 3;
+int[] b = reWriteOverAverageArray(a,k);
+System.out.println();

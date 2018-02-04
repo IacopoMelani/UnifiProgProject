@@ -1,0 +1,39 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class IntervalMerge {
+  public static int[][] intervalMerge(int[][] m) {
+    return null;
+  }
+  
+  public static int[][] putMerge(int[][] m, int[] intr) {
+    int[][] matrix = new int[(m.length + 1)][2];
+    matrix[0] = intr;
+    int k = 0;
+    for (int i = 1; (i < m.length); i++) {
+      {
+        matrix[i] = m[k];
+        k = (k + 1);
+      }
+    }
+    matrix[(k + 1)] = m[k];
+    return matrix;
+  }
+  
+  public static int[] merge(int[] a, int[] b) {
+    int[] i = new int[2];
+    if (((a[0] <= b[0]) && (b[0] <= a[1]))) {
+      i[0] = a[0];
+      i[1] = b[1];
+    }
+    return i;
+  }
+  
+  public static void main(String[] args) {
+    int[] i1 = { 1, 4 };
+    int[][] m = { new int[] { 5, 8 }, new int[] { 10, 12 }, new int[] { 13, 16 } };
+    int[][] matrix = IntervalMerge.putMerge(m, i1);
+    System.out.println();
+    System.out.println();
+  }
+}

@@ -1,0 +1,57 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class KSubsetSum {
+  public static boolean kSubsetSum(int[] a, int k, int s) {
+    int[] cpa = KSubsetSum.copiaArray(a);
+    boolean[] c = { false };
+    KSubsetSum.genBinary(c, a, cpa, a.length, s, k);
+    return false;
+  }
+  
+  public static void genBinary(boolean[] c, int[] a, int[] cpa, int b, int s, int r) {
+    boolean ris = false;
+    if (((b == 0) && KSubsetSum.kSumArray(cpa, a, s))) {
+    } else {
+      if ((r < b)) {
+        a[(b - 1)] = 0;
+        KSubsetSum.genBinary(c, a, cpa, (b - 1), s, r);
+      }
+      if ((r > 0)) {
+        a[(b - 1)] = 1;
+        KSubsetSum.genBinary(c, a, cpa, (b - 1), s, (r - 1));
+      }
+    }
+  }
+  
+  public static boolean kSumArray(int[] a, int[] binary, int s) {
+    boolean ris = false;
+    int sum = 0;
+    for (int i = 0; (i < a.length); i++) {
+      boolean _tripleEquals = (binary[i] == 1);
+      if (_tripleEquals) {
+        int _plus = (sum + a[i]);
+        sum = _plus;
+      }
+    }
+    if ((sum == s)) {
+      ris = true;
+    }
+    return ris;
+  }
+  
+  public static int[] copiaArray(int[] a) {
+    int[] b = new int[a.length];
+    for (int i = 0; (i < a.length); i++) {
+      b[i] = a[i];
+    }
+    return b;
+  }
+  
+  public static void main(String[] args) {
+    int[] a = { 1, 2, 2, 6, 7, 7, 20 };
+    int[] b = { 1, 1, 1, 0, 0, 0, 1 };
+    boolean ris = KSubsetSum.kSubsetSum(a, 4, 25);
+    System.out.println(ris);
+  }
+}

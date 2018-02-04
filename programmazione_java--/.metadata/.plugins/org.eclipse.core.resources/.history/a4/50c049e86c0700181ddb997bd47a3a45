@@ -1,0 +1,32 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class Amicable {
+  public static boolean amicable(int a, int b) {
+    boolean ris = false;
+    int sumA = Amicable.sumDivisor(a);
+    int sumB = Amicable.sumDivisor(b);
+    if (((sumA == b) && (sumB == a))) {
+      ris = true;
+    }
+    return ris;
+  }
+  
+  public static int sumDivisor(int n) {
+    int sum = 0;
+    int num = n;
+    while ((num != 0)) {
+      {
+        num = (num / 2);
+        if (((n % num) == 0)) {
+          sum = (sum + num);
+        }
+      }
+    }
+    return sum;
+  }
+  
+  public static void main(String[] args) {
+    System.out.println(Amicable.amicable(284, 220));
+  }
+}

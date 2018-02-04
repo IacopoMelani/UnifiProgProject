@@ -1,0 +1,30 @@
+boolean partition(int[] a) {
+	return false;
+}
+
+
+void genBinary(int[] a,int[] cpa, int b){
+	if(b==0){
+		System.out.println();
+	} else {
+		a[b-1] = 0;
+		genBinary(a,cpa,b-1);
+		a[b-1] = 1;
+		genBinary(a,cpa,b-1);
+	}
+}
+
+
+boolean findPartition(int[] a) {
+	boolean ris = false;
+	
+	return ris;
+}
+
+int[] copyArray(int[] a){
+	int[] b = new int[a.length];
+	for(int i = 0; i < a.length; i++){
+		b[i] = a[i];
+	}
+	return b;
+}

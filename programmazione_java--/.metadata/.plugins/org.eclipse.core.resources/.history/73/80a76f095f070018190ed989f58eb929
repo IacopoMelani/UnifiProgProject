@@ -1,0 +1,27 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class Anagrams {
+  public static boolean anagrams(int[] s, int[] t) {
+    return false;
+  }
+  
+  public static int[] copyArray(int[] a) {
+    int[] b = new int[a.length];
+    for (int i = 0; (i < a.length); i++) {
+      b[i] = a[i];
+    }
+    return b;
+  }
+  
+  public static void sortArray(int[] a) {
+    for (int i = 0; (i < a.length); i++) {
+    }
+  }
+  
+  public static void main(String[] args) {
+    int[] a = { 1, 2, 3, 4, 5 };
+    int[] b = Anagrams.copyArray(a);
+    System.out.println();
+  }
+}

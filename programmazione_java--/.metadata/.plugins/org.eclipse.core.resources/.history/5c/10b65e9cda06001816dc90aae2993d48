@@ -1,0 +1,66 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class MaximumNumber {
+  public static long maximumNumber(int[] a, int k) {
+    long n = 0;
+    int arrayRemainingNumber = a.length;
+    int longRemainingNumber = k;
+    int i = 0;
+    int p = -1;
+    while (((i < a.length) && (longRemainingNumber > 0))) {
+      if (((arrayRemainingNumber > longRemainingNumber) && ((a.length - MaximumNumber.max(a, (p + 1), MaximumNumber.max(a, (p + 1), a.length))) > (longRemainingNumber - 1)))) {
+        n = MaximumNumber.putMaxFromRight(a, (p + 1), n);
+        p = MaximumNumber.max(a, (p + 1), a.length);
+        longRemainingNumber = (longRemainingNumber - 1);
+        int _length = a.length;
+        int _minus = (_length - p);
+        int _minus_1 = (_minus - 1);
+        arrayRemainingNumber = _minus_1;
+      } else {
+        n = MaximumNumber.putAllFromRight(a, (p + 1), n);
+        longRemainingNumber = 0;
+      }
+    }
+    return n;
+  }
+  
+  public static long powerOfTen(long n) {
+    return (n * 10);
+  }
+  
+  public static int max(int[] a, int position, int fposition) {
+    int max = -1;
+    int pMax = -1;
+    for (int i = position; (i < fposition); i++) {
+      boolean _greaterThan = (a[i] > max);
+      if (_greaterThan) {
+        max = a[i];
+        pMax = i;
+      }
+    }
+    return pMax;
+  }
+  
+  public static long putMaxFromRight(int[] a, int position, long n) {
+    n = MaximumNumber.powerOfTen(n);
+    long _plus = (a[MaximumNumber.max(a, position, a.length)] + n);
+    return ((long) _plus);
+  }
+  
+  public static long putAllFromRight(int[] a, int position, long n) {
+    for (int i = position; (i < a.length); i++) {
+      {
+        n = MaximumNumber.powerOfTen(n);
+        long _plus = (n + a[i]);
+        n = _plus;
+      }
+    }
+    return n;
+  }
+  
+  public static void main(String[] args) {
+    int[] a = { 7, 4, 2, 9, 3, 5, 8, 1, 7, 5 };
+    System.out.println(MaximumNumber.maximumNumber(a, 6));
+  }
+}

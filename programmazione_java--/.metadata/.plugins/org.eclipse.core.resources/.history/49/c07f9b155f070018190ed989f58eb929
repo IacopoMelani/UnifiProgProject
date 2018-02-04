@@ -1,0 +1,24 @@
+boolean anagrams(int[] s, int[] t) {
+	return false;
+}
+
+int[] copyArray(int[] a){
+	int[] b = new int[a.length];
+	for(int i = 0; i<a.length; i++){
+		b[i] = a[i];
+	}
+	return b;
+}
+
+void sortArray(int[] a){
+	int pMin = -1;
+	for(int i = 0; i < a.length; i++){
+		if
+	}
+}
+
+
+int[] a = {1,2,3,4,5};
+int[] b = copyArray(a);
+
+System.out.println();

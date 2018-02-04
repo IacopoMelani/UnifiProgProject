@@ -1,9 +1,0 @@
-void hanoiTower(int n, int s, int d){
-	if (n == 0){
-		System.out.println(s + "=>" + d);
-	} else {
-		hanoiTower(n - 1, s, 6 - (d + s));
-		System.out.println(s + "=>" + d);
-		hanoiTower(n-1,);
-	}
-}

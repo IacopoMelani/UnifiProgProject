@@ -1,0 +1,41 @@
+boolean anagrams(int[] s, int[] t) {
+	return false;
+}
+
+int[] copyArray(int[] a){
+	int[] b = new int[a.length];
+	for(int i = 0; i<a.length; i++){
+		b[i] = a[i];
+	}
+	return b;
+}
+
+int[] selectionSort(int[] a) {
+	int indiceProssimoMinimo, min, temp, i, j;
+	for (i = 0; i < a.length - 1; i++) {
+		min = a[i];
+		indiceProssimoMinimo = i;
+		for (j = i + 1; j < a.length; j++) {
+			if (a[j] < min) {
+				min = a[j];
+				indiceProssimoMinimo = j;
+			}
+		}
+		temp = a[i];
+		a[i] = a[indiceProssimoMinimo];
+		a[indiceProssimoMinimo] = temp;
+	}
+	return a;
+}
+
+boolean compareArrayAnagrams(int[] a, int[] b){
+	boolean ris = false;
+	if(a.length != b.length)
+	return ris;
+}
+
+
+int[] a = {1,2,3,4,5};
+int[] b = copyArray(a);
+
+System.out.println();

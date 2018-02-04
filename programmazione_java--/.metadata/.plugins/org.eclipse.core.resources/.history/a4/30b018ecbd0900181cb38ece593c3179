@@ -1,0 +1,17 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class Partitioner {
+  public static boolean partition(int[] a) {
+    return false;
+  }
+  
+  public static void genBinary(int[] a, int b) {
+    if ((b == 0)) {
+      System.out.println();
+    }
+  }
+  
+  public static void main(String[] args) {
+  }
+}

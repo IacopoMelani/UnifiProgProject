@@ -1,0 +1,6 @@
+boolean partition(int[] a) {
+	return false;
+}
+
+
+void generaBinarie

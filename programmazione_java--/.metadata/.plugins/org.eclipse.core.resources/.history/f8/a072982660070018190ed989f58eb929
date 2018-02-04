@@ -1,0 +1,69 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class Anagrams {
+  public static boolean anagrams(int[] s, int[] t) {
+    int[] ns = Anagrams.copyArray(s);
+    int[] nt = Anagrams.copyArray(t);
+    Anagrams.selectionSort(ns);
+    Anagrams.selectionSort(nt);
+    boolean ris = Anagrams.compareArrayAnagrams(s, t);
+    return false;
+  }
+  
+  public static int[] copyArray(int[] a) {
+    int[] b = new int[a.length];
+    for (int i = 0; (i < a.length); i++) {
+      b[i] = a[i];
+    }
+    return b;
+  }
+  
+  public static void selectionSort(int[] a) {
+    int indiceProssimoMinimo = 0;
+    int min = 0;
+    int temp = 0;
+    int i = 0;
+    int j = 0;
+    for (i = 0; (i < (a.length - 1)); i++) {
+      {
+        min = a[i];
+        indiceProssimoMinimo = i;
+        for (j = (i + 1); (j < a.length); j++) {
+          boolean _lessThan = (a[j] < min);
+          if (_lessThan) {
+            min = a[j];
+            indiceProssimoMinimo = j;
+          }
+        }
+        temp = a[i];
+        a[i] = a[indiceProssimoMinimo];
+        a[indiceProssimoMinimo] = temp;
+      }
+    }
+  }
+  
+  public static boolean compareArrayAnagrams(int[] a, int[] b) {
+    boolean ris = true;
+    int _length = a.length;
+    int _length_1 = b.length;
+    boolean _tripleNotEquals = (_length != _length_1);
+    if (_tripleNotEquals) {
+      ris = false;
+    } else {
+      for (int i = 0; (i < a.length); i++) {
+        boolean _tripleNotEquals_1 = (a[i] != b[i]);
+        if (_tripleNotEquals_1) {
+          ris = false;
+        }
+      }
+    }
+    return ris;
+  }
+  
+  public static void main(String[] args) {
+    int[] a = { 1, 2, 3, 4, 5 };
+    int[] b = Anagrams.copyArray(a);
+    System.out.println();
+  }
+}

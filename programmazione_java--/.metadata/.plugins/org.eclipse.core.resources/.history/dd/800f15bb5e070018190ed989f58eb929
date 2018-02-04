@@ -1,0 +1,16 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class Anagrams {
+  public static boolean anagrams(int[] s, int[] t) {
+    return false;
+  }
+  
+  public static int[] copyArray(int[] a) {
+    int[] b = new int[a.length];
+    return b;
+  }
+  
+  public static void main(String[] args) {
+  }
+}

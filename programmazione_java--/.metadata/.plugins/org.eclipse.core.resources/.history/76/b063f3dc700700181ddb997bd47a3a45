@@ -1,0 +1,21 @@
+boolean amicable(int a, int b) {
+	boolean ris = false;
+	int sumA = sumDivisor(a);
+	int sumB = sumDivisor(b);
+	if(sumA == b && sumB == a){
+		ris = true;
+	}
+	return ris;
+}
+
+
+int sumDivisor(int n){
+	int sum = 0;
+	int q  n / 2;
+	
+	return sum;
+}
+
+
+System.out.println(amicable(284,220));
+System.out.println();

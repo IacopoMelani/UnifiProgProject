@@ -1,0 +1,18 @@
+boolean partition(int[] a) {
+	return false;
+}
+
+
+void genBinary(int[] a, int b){
+	if(b==0){
+		System.out.println();
+	} else {
+		a[b-1] = 0;
+		genBinary(a,b-1);
+		a[b-1] = 1;
+		genBinary(a,b-1);
+	}
+}
+
+
+boolean findPartition() 

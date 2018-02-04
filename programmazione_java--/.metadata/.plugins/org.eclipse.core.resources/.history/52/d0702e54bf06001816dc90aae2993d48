@@ -1,0 +1,23 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class OverAverage {
+  public static int[] overAverage(int[] a) {
+    return null;
+  }
+  
+  public static int average(int[] a) {
+    int ris = 0;
+    for (int i = 0; (i < a.length); i++) {
+      int _plus = (a[i] + ris);
+      ris = _plus;
+    }
+    int _length = a.length;
+    return (ris / _length);
+  }
+  
+  public static void main(String[] args) {
+    int[] a = { 1, 2, 3, 4, 5 };
+    System.out.println(OverAverage.average(a));
+  }
+}

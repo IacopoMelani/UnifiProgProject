@@ -1,0 +1,51 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class Armstrong {
+  public static boolean armstrong(int n) {
+    return false;
+  }
+  
+  public static int powerOfdigit(int n, int digit) {
+    int ris = n;
+    for (int i = 1; (i < digit); i++) {
+      ris = (ris * n);
+    }
+    return ris;
+  }
+  
+  public static int contDigit(int n) {
+    int digit = 0;
+    if ((n == 0)) {
+      return 1;
+    }
+    while ((n != 0)) {
+      {
+        n = (n / 10);
+        digit = (digit + 1);
+      }
+    }
+    return digit;
+  }
+  
+  public static int calculateArmstrong(int n, int digit) {
+    int ris = 0;
+    int d = 0;
+    while ((n != 0)) {
+      {
+        d = (n % 10);
+        int _powerOfdigit = Armstrong.powerOfdigit(d, digit);
+        int _plus = (ris + _powerOfdigit);
+        ris = _plus;
+        n = (n / 10);
+      }
+    }
+    return ris;
+  }
+  
+  public static void main(String[] args) {
+    int n = 2;
+    System.out.println(Armstrong.calculateArmstrong(153, 3));
+    System.out.println(n);
+  }
+}

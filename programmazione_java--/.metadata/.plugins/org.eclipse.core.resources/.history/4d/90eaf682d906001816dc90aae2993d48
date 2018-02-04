@@ -1,0 +1,53 @@
+long maximumNumber(int[] a, int k) {
+	long n = 0;
+	int arrayRemainingNumber = a.length;
+	int longRemainingNumber = k;
+	int i = 0, p = -1;
+	while (i < a.length && longRemainingNumber > 0) {
+		if (arrayRemainingNumber > longRemainingNumber && a.length - max(a, p + 1) - 1 > longRemainingNumber - 1) {
+			n = putMaxFromRight(a, p + 1, n);
+			p = max(a, p + 1);
+			longRemainingNumber = longRemainingNumber - 1;
+			arrayRemainingNumber = a.length - p - 1;
+
+		} else {
+			n = putAllFromRight(a, p + 1, n);
+			longRemainingNumber = 0;
+		}
+
+	}
+	return n;
+}
+
+long powerOfTen(long n) {
+	return n * 10;
+}
+
+int max(int[] a, int position) {
+	int max = -1;
+	int pMax = -1;
+	for (int i = position; i < a.length; i++) {
+		if (a[i] > max) {
+			max = a[i];
+			pMax = i;
+		}
+	}
+	return pMax;
+}
+
+long putMaxFromRight(int[] a, int position, long n) {
+	n = powerOfTen(n);
+	return (long) a[max(a, position)] + n;
+}
+
+long putAllFromRight(int[] a, int position, long n) {
+	for (int i = position; i < a.length; i++) {
+		n = powerOfTen(n);
+		n = n + a[i];
+	}
+	return n;
+}
+
+int[] a = {7, 4, 2, 9, 3, 5, 8, 1, 7, 5};
+
+System.out.println(maximumNumber(a, 6));
