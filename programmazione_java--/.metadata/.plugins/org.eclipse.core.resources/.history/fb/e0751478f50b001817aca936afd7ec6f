@@ -1,0 +1,19 @@
+package javamm;
+
+@SuppressWarnings("all")
+public class StrangePartitioner {
+  public static boolean strangePartition(int[] a) {
+    return false;
+  }
+  
+  public static boolean odd(int n) {
+    boolean ris = false;
+    ris = ((n % 2) != 0);
+    return ris;
+  }
+  
+  public static void main(String[] args) {
+    int n = 5;
+    System.out.println(StrangePartitioner.odd(n));
+  }
+}

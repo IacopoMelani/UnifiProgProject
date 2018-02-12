@@ -1,0 +1,53 @@
+boolean strangePartition(int[] a) {
+	boolean ris = false;
+	int[] b = copyArray(a);
+	ris = genBinary(a,b,a.length);
+	return ris;
+}
+
+boolean genBinary(int[] a, int[] cpA, int b){
+	boolean ris = false;
+	if(b == 0){
+		if(multipleOfTen(sumArray(cpA,a,1)) && odd(sumArray(,a,0))){
+			ris = true;
+		}
+	} else {
+		a[b-1] = 0;
+		genBinary(a,cpA,b-1);
+		a[b-1] = 1;
+		genBinary(a,cpA,b-1);
+	}
+	return ris; 
+}
+
+boolean odd(int n){
+	boolean ris = false;
+	ris = n % 2 != 0;
+	return ris;
+}
+
+
+boolean multipleOfTen(int n){
+	boolean ris = false;
+	ris = n % 10 == 0;
+	return ris;
+}
+
+
+int sumArray(int[] a, int[] binary, int c){
+	int sum = 0;
+	for(int i = 0; i < a.length; i++){
+		if(binary[i] == c){
+			sum = sum + a[i];
+		}
+	}
+	return sum;
+}
+
+int[] copyArray(int[] a){
+	int[] b = new int[a.length];
+	for(int i = 0; i < a.length; i++){
+		b[i] = a[i];
+	}
+	return b;
+}

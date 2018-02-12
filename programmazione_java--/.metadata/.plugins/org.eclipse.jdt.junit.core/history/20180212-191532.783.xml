@@ -1,0 +1,1804 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StrangePartitioner.student" project="StrangePartitioner.student" tests="600" started="600" failures="0" errors="0" ignored="0">
+  <testsuite name="tests.StrangePartitionerTest" time="0.996">
+    <testsuite name="[(a = [3, 40, 36, 46, 62])]" time="0.0">
+      <testcase name="testExercise[(a = [3, 40, 36, 46, 62])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [82, 62, 93, 44, 66, 94, 68, 29, 42, 24])]" time="0.0">
+      <testcase name="testExercise[(a = [82, 62, 93, 44, 66, 94, 68, 29, 42, 24])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [93, 74, 82, 83, 62, 64, 61, 53, 85, 12, 90, 85, 61, 19, 95])]" time="0.04">
+      <testcase name="testExercise[(a = [93, 74, 82, 83, 62, 64, 61, 53, 85, 12, 90, 85, 61, 19, 95])]" classname="tests.StrangePartitionerTest" time="0.04"/>
+    </testsuite>
+    <testsuite name="[(a = [1, 68, 48, 64, 52])]" time="0.0">
+      <testcase name="testExercise[(a = [1, 68, 48, 64, 52])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [43, 33, 6, 43, 28, 84, 10, 7, 59, 84])]" time="0.0">
+      <testcase name="testExercise[(a = [43, 33, 6, 43, 28, 84, 10, 7, 59, 84])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [70, 40, 30, 6, 70, 50, 92, 71, 95, 96, 10, 15, 50, 88, 93])]" time="0.0">
+      <testcase name="testExercise[(a = [70, 40, 30, 6, 70, 50, 92, 71, 95, 96, 10, 15, 50, 88, 93])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [91, 73, 77, 83, 35])]" time="0.0">
+      <testcase name="testExercise[(a = [91, 73, 77, 83, 35])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [1, 79, 24, 23, 62, 54, 38, 71, 77, 52])]" time="0.0">
+      <testcase name="testExercise[(a = [1, 79, 24, 23, 62, 54, 38, 71, 77, 52])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [78, 36, 94, 84, 90, 1, 43, 63, 87, 66, 32, 68, 17, 16, 26])]" time="0.0">
+      <testcase name="testExercise[(a = [78, 36, 94, 84, 90, 1, 43, 63, 87, 66, 32, 68, 17, 16, 26])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [82, 21, 46, 32, 16])]" time="0.0">
+      <testcase name="testExercise[(a = [82, 21, 46, 32, 16])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [85, 35, 8, 22, 34, 79, 91, 35, 57, 67])]" time="0.0">
+      <testcase name="testExercise[(a = [85, 35, 8, 22, 34, 79, 91, 35, 57, 67])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [23, 68, 23, 83, 75, 4, 27, 98, 98, 52, 1, 51, 52, 4, 36])]" time="0.0">
+      <testcase name="testExercise[(a = [23, 68, 23, 83, 75, 4, 27, 98, 98, 52, 1, 51, 52, 4, 36])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [25, 51, 85, 98, 11])]" time="0.0">
+      <testcase name="testExercise[(a = [25, 51, 85, 98, 11])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [2, 35, 46, 58, 42, 54, 41, 68, 46, 99])]" time="0.0">
+      <testcase name="testExercise[(a = [2, 35, 46, 58, 42, 54, 41, 68, 46, 99])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [92, 67, 24, 33, 82, 70, 37, 76, 34, 48, 60, 66, 66, 33, 4])]" time="0.008">
+      <testcase name="testExercise[(a = [92, 67, 24, 33, 82, 70, 37, 76, 34, 48, 60, 66, 66, 33, 4])]" classname="tests.StrangePartitionerTest" time="0.008"/>
+    </testsuite>
+    <testsuite name="[(a = [96, 74, 27, 98, 23])]" time="0.001">
+      <testcase name="testExercise[(a = [96, 74, 27, 98, 23])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [68, 7, 22, 81, 23, 36, 100, 47, 37, 76])]" time="0.0">
+      <testcase name="testExercise[(a = [68, 7, 22, 81, 23, 36, 100, 47, 37, 76])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [79, 28, 16, 20, 94, 26, 19, 19, 42, 42, 16, 68, 92, 65, 62])]" time="0.013">
+      <testcase name="testExercise[(a = [79, 28, 16, 20, 94, 26, 19, 19, 42, 42, 16, 68, 92, 65, 62])]" classname="tests.StrangePartitionerTest" time="0.013"/>
+    </testsuite>
+    <testsuite name="[(a = [85, 47, 46, 72, 68])]" time="0.0">
+      <testcase name="testExercise[(a = [85, 47, 46, 72, 68])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [62, 52, 14, 47, 70, 26, 95, 35, 89, 30])]" time="0.001">
+      <testcase name="testExercise[(a = [62, 52, 14, 47, 70, 26, 95, 35, 89, 30])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [58, 36, 50, 94, 79, 66, 40, 14, 74, 88, 69, 57, 89, 7, 19])]" time="0.013">
+      <testcase name="testExercise[(a = [58, 36, 50, 94, 79, 66, 40, 14, 74, 88, 69, 57, 89, 7, 19])]" classname="tests.StrangePartitionerTest" time="0.013"/>
+    </testsuite>
+    <testsuite name="[(a = [39, 100, 39, 22, 54])]" time="0.0">
+      <testcase name="testExercise[(a = [39, 100, 39, 22, 54])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [78, 50, 76, 7, 20, 54, 9, 80, 19, 90])]" time="0.0">
+      <testcase name="testExercise[(a = [78, 50, 76, 7, 20, 54, 9, 80, 19, 90])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [19, 66, 42, 80, 55, 4, 56, 5, 31, 69, 3, 51, 36, 71, 100])]" time="0.012">
+      <testcase name="testExercise[(a = [19, 66, 42, 80, 55, 4, 56, 5, 31, 69, 3, 51, 36, 71, 100])]" classname="tests.StrangePartitionerTest" time="0.012"/>
+    </testsuite>
+    <testsuite name="[(a = [50, 88, 54, 34, 94])]" time="0.001">
+      <testcase name="testExercise[(a = [50, 88, 54, 34, 94])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [48, 30, 56, 70, 46, 75, 74, 7, 68, 31])]" time="0.0">
+      <testcase name="testExercise[(a = [48, 30, 56, 70, 46, 75, 74, 7, 68, 31])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [21, 65, 19, 63, 99, 14, 92, 74, 6, 90, 97, 97, 28, 11, 36])]" time="0.013">
+      <testcase name="testExercise[(a = [21, 65, 19, 63, 99, 14, 92, 74, 6, 90, 97, 97, 28, 11, 36])]" classname="tests.StrangePartitionerTest" time="0.013"/>
+    </testsuite>
+    <testsuite name="[(a = [26, 79, 39, 48, 16])]" time="0.0">
+      <testcase name="testExercise[(a = [26, 79, 39, 48, 16])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [7, 62, 45, 22, 12, 65, 9, 99, 81, 12])]" time="0.0">
+      <testcase name="testExercise[(a = [7, 62, 45, 22, 12, 65, 9, 99, 81, 12])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [47, 10, 1, 41, 82, 100, 15, 18, 39, 25, 71, 41, 58, 7, 23])]" time="0.013">
+      <testcase name="testExercise[(a = [47, 10, 1, 41, 82, 100, 15, 18, 39, 25, 71, 41, 58, 7, 23])]" classname="tests.StrangePartitionerTest" time="0.013"/>
+    </testsuite>
+    <testsuite name="[(a = [25, 3, 90, 5, 18])]" time="0.0">
+      <testcase name="testExercise[(a = [25, 3, 90, 5, 18])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [51, 67, 4, 25, 77, 77, 49, 100, 27, 1])]" time="0.001">
+      <testcase name="testExercise[(a = [51, 67, 4, 25, 77, 77, 49, 100, 27, 1])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [8, 94, 36, 83, 67, 23, 30, 87, 74, 76, 63, 5, 82, 91, 65])]" time="0.012">
+      <testcase name="testExercise[(a = [8, 94, 36, 83, 67, 23, 30, 87, 74, 76, 63, 5, 82, 91, 65])]" classname="tests.StrangePartitionerTest" time="0.012"/>
+    </testsuite>
+    <testsuite name="[(a = [95, 17, 67, 100, 8])]" time="0.0">
+      <testcase name="testExercise[(a = [95, 17, 67, 100, 8])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [8, 14, 87, 4, 46, 30, 22, 29, 41, 66])]" time="0.001">
+      <testcase name="testExercise[(a = [8, 14, 87, 4, 46, 30, 22, 29, 41, 66])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [89, 30, 55, 21, 75, 67, 99, 79, 7, 44, 13, 22, 54, 33, 11])]" time="0.008">
+      <testcase name="testExercise[(a = [89, 30, 55, 21, 75, 67, 99, 79, 7, 44, 13, 22, 54, 33, 11])]" classname="tests.StrangePartitionerTest" time="0.008"/>
+    </testsuite>
+    <testsuite name="[(a = [49, 83, 57, 29, 8])]" time="0.001">
+      <testcase name="testExercise[(a = [49, 83, 57, 29, 8])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [35, 75, 89, 27, 36, 21, 2, 96, 72, 3])]" time="0.0">
+      <testcase name="testExercise[(a = [35, 75, 89, 27, 36, 21, 2, 96, 72, 3])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [45, 14, 54, 38, 51, 47, 25, 67, 34, 99, 100, 5, 92, 23, 84])]" time="0.013">
+      <testcase name="testExercise[(a = [45, 14, 54, 38, 51, 47, 25, 67, 34, 99, 100, 5, 92, 23, 84])]" classname="tests.StrangePartitionerTest" time="0.013"/>
+    </testsuite>
+    <testsuite name="[(a = [74, 30, 95, 81, 28])]" time="0.0">
+      <testcase name="testExercise[(a = [74, 30, 95, 81, 28])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [25, 27, 100, 48, 69, 57, 50, 78, 27, 59])]" time="0.0">
+      <testcase name="testExercise[(a = [25, 27, 100, 48, 69, 57, 50, 78, 27, 59])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [50, 51, 22, 6, 12, 81, 67, 79, 76, 42, 70, 82, 77, 54, 99])]" time="0.013">
+      <testcase name="testExercise[(a = [50, 51, 22, 6, 12, 81, 67, 79, 76, 42, 70, 82, 77, 54, 99])]" classname="tests.StrangePartitionerTest" time="0.013"/>
+    </testsuite>
+    <testsuite name="[(a = [74, 89, 34, 2, 94])]" time="0.0">
+      <testcase name="testExercise[(a = [74, 89, 34, 2, 94])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [64, 39, 96, 38, 38, 65, 60, 52, 56, 94])]" time="0.001">
+      <testcase name="testExercise[(a = [64, 39, 96, 38, 38, 65, 60, 52, 56, 94])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [23, 31, 58, 13, 94, 96, 68, 41, 66, 79, 67, 100, 7, 42, 58])]" time="0.007">
+      <testcase name="testExercise[(a = [23, 31, 58, 13, 94, 96, 68, 41, 66, 79, 67, 100, 7, 42, 58])]" classname="tests.StrangePartitionerTest" time="0.007"/>
+    </testsuite>
+    <testsuite name="[(a = [77, 74, 28, 78, 80])]" time="0.0">
+      <testcase name="testExercise[(a = [77, 74, 28, 78, 80])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [3, 38, 16, 11, 68, 52, 25, 4, 64, 82])]" time="0.001">
+      <testcase name="testExercise[(a = [3, 38, 16, 11, 68, 52, 25, 4, 64, 82])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [90, 68, 29, 92, 44, 98, 23, 33, 53, 77, 71, 79, 46, 8, 4])]" time="0.008">
+      <testcase name="testExercise[(a = [90, 68, 29, 92, 44, 98, 23, 33, 53, 77, 71, 79, 46, 8, 4])]" classname="tests.StrangePartitionerTest" time="0.008"/>
+    </testsuite>
+    <testsuite name="[(a = [52, 7, 43, 59, 45])]" time="0.0">
+      <testcase name="testExercise[(a = [52, 7, 43, 59, 45])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [67, 90, 57, 19, 75, 61, 33, 57, 96, 56])]" time="0.001">
+      <testcase name="testExercise[(a = [67, 90, 57, 19, 75, 61, 33, 57, 96, 56])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [94, 34, 48, 17, 34, 4, 5, 93, 11, 95, 65, 100, 56, 24, 40])]" time="0.013">
+      <testcase name="testExercise[(a = [94, 34, 48, 17, 34, 4, 5, 93, 11, 95, 65, 100, 56, 24, 40])]" classname="tests.StrangePartitionerTest" time="0.013"/>
+    </testsuite>
+    <testsuite name="[(a = [33, 64, 96, 48, 14])]" time="0.0">
+      <testcase name="testExercise[(a = [33, 64, 96, 48, 14])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [74, 70, 35, 22, 3, 10, 36, 44, 5, 27])]" time="0.0">
+      <testcase name="testExercise[(a = [74, 70, 35, 22, 3, 10, 36, 44, 5, 27])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [73, 31, 20, 37, 69, 51, 14, 45, 1, 2, 36, 35, 24, 75, 70])]" time="0.009">
+      <testcase name="testExercise[(a = [73, 31, 20, 37, 69, 51, 14, 45, 1, 2, 36, 35, 24, 75, 70])]" classname="tests.StrangePartitionerTest" time="0.009"/>
+    </testsuite>
+    <testsuite name="[(a = [50, 60, 10, 44, 61])]" time="0.0">
+      <testcase name="testExercise[(a = [50, 60, 10, 44, 61])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [10, 69, 17, 34, 9, 12, 92, 92, 70, 12])]" time="0.001">
+      <testcase name="testExercise[(a = [10, 69, 17, 34, 9, 12, 92, 92, 70, 12])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [2, 54, 38, 87, 45, 13, 38, 62, 95, 79, 3, 98, 96, 70, 63])]" time="0.009">
+      <testcase name="testExercise[(a = [2, 54, 38, 87, 45, 13, 38, 62, 95, 79, 3, 98, 96, 70, 63])]" classname="tests.StrangePartitionerTest" time="0.009"/>
+    </testsuite>
+    <testsuite name="[(a = [39, 79, 70, 30, 31])]" time="0.0">
+      <testcase name="testExercise[(a = [39, 79, 70, 30, 31])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [92, 44, 93, 66, 89, 79, 74, 94, 94, 92])]" time="0.0">
+      <testcase name="testExercise[(a = [92, 44, 93, 66, 89, 79, 74, 94, 94, 92])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [74, 4, 55, 5, 19, 79, 100, 44, 18, 44, 44, 41, 64, 13, 96])]" time="0.014">
+      <testcase name="testExercise[(a = [74, 4, 55, 5, 19, 79, 100, 44, 18, 44, 44, 41, 64, 13, 96])]" classname="tests.StrangePartitionerTest" time="0.014"/>
+    </testsuite>
+    <testsuite name="[(a = [77, 40, 58, 34, 1])]" time="0.0">
+      <testcase name="testExercise[(a = [77, 40, 58, 34, 1])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [35, 59, 3, 90, 62, 22, 48, 12, 1, 48])]" time="0.0">
+      <testcase name="testExercise[(a = [35, 59, 3, 90, 62, 22, 48, 12, 1, 48])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [46, 47, 48, 55, 34, 6, 3, 39, 67, 75, 5, 36, 76, 51, 17])]" time="0.009">
+      <testcase name="testExercise[(a = [46, 47, 48, 55, 34, 6, 3, 39, 67, 75, 5, 36, 76, 51, 17])]" classname="tests.StrangePartitionerTest" time="0.009"/>
+    </testsuite>
+    <testsuite name="[(a = [43, 47, 28, 69, 97])]" time="0.001">
+      <testcase name="testExercise[(a = [43, 47, 28, 69, 97])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [67, 4, 1, 71, 6, 50, 63, 16, 80, 78])]" time="0.0">
+      <testcase name="testExercise[(a = [67, 4, 1, 71, 6, 50, 63, 16, 80, 78])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [11, 72, 15, 1, 90, 36, 12, 48, 80, 78, 26, 36, 8, 90, 97])]" time="0.013">
+      <testcase name="testExercise[(a = [11, 72, 15, 1, 90, 36, 12, 48, 80, 78, 26, 36, 8, 90, 97])]" classname="tests.StrangePartitionerTest" time="0.013"/>
+    </testsuite>
+    <testsuite name="[(a = [55, 92, 86, 95, 42])]" time="0.001">
+      <testcase name="testExercise[(a = [55, 92, 86, 95, 42])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [89, 22, 9, 58, 97, 21, 75, 68, 68, 22])]" time="0.0">
+      <testcase name="testExercise[(a = [89, 22, 9, 58, 97, 21, 75, 68, 68, 22])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [1, 61, 57, 76, 92, 18, 22, 14, 41, 21, 5, 16, 27, 90, 51])]" time="0.012">
+      <testcase name="testExercise[(a = [1, 61, 57, 76, 92, 18, 22, 14, 41, 21, 5, 16, 27, 90, 51])]" classname="tests.StrangePartitionerTest" time="0.012"/>
+    </testsuite>
+    <testsuite name="[(a = [67, 65, 86, 63, 96])]" time="0.001">
+      <testcase name="testExercise[(a = [67, 65, 86, 63, 96])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [76, 65, 43, 25, 37, 52, 59, 31, 61, 93])]" time="0.0">
+      <testcase name="testExercise[(a = [76, 65, 43, 25, 37, 52, 59, 31, 61, 93])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [39, 66, 82, 17, 27, 6, 2, 27, 38, 41, 63, 68, 84, 31, 87])]" time="0.013">
+      <testcase name="testExercise[(a = [39, 66, 82, 17, 27, 6, 2, 27, 38, 41, 63, 68, 84, 31, 87])]" classname="tests.StrangePartitionerTest" time="0.013"/>
+    </testsuite>
+    <testsuite name="[(a = [4, 9, 53, 81, 54])]" time="0.0">
+      <testcase name="testExercise[(a = [4, 9, 53, 81, 54])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [20, 73, 95, 75, 95, 71, 39, 7, 47, 7])]" time="0.0">
+      <testcase name="testExercise[(a = [20, 73, 95, 75, 95, 71, 39, 7, 47, 7])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [55, 13, 26, 5, 4, 15, 87, 91, 54, 86, 81, 66, 37, 72, 98])]" time="0.013">
+      <testcase name="testExercise[(a = [55, 13, 26, 5, 4, 15, 87, 91, 54, 86, 81, 66, 37, 72, 98])]" classname="tests.StrangePartitionerTest" time="0.013"/>
+    </testsuite>
+    <testsuite name="[(a = [42, 17, 52, 61, 1])]" time="0.0">
+      <testcase name="testExercise[(a = [42, 17, 52, 61, 1])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [94, 61, 65, 66, 27, 8, 64, 75, 11, 20])]" time="0.001">
+      <testcase name="testExercise[(a = [94, 61, 65, 66, 27, 8, 64, 75, 11, 20])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [17, 77, 71, 15, 80, 32, 26, 21, 30, 11, 99, 76, 36, 70, 1])]" time="0.013">
+      <testcase name="testExercise[(a = [17, 77, 71, 15, 80, 32, 26, 21, 30, 11, 99, 76, 36, 70, 1])]" classname="tests.StrangePartitionerTest" time="0.013"/>
+    </testsuite>
+    <testsuite name="[(a = [63, 31, 6, 60, 33])]" time="0.0">
+      <testcase name="testExercise[(a = [63, 31, 6, 60, 33])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [65, 5, 50, 37, 31, 12, 49, 18, 84, 2])]" time="0.0">
+      <testcase name="testExercise[(a = [65, 5, 50, 37, 31, 12, 49, 18, 84, 2])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [77, 33, 27, 62, 54, 74, 97, 11, 90, 97, 64, 99, 25, 16, 59])]" time="0.009">
+      <testcase name="testExercise[(a = [77, 33, 27, 62, 54, 74, 97, 11, 90, 97, 64, 99, 25, 16, 59])]" classname="tests.StrangePartitionerTest" time="0.009"/>
+    </testsuite>
+    <testsuite name="[(a = [32, 50, 47, 44, 50])]" time="0.001">
+      <testcase name="testExercise[(a = [32, 50, 47, 44, 50])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [75, 21, 72, 87, 46, 6, 28, 93, 89, 53])]" time="0.0">
+      <testcase name="testExercise[(a = [75, 21, 72, 87, 46, 6, 28, 93, 89, 53])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [95, 90, 29, 32, 62, 59, 20, 59, 87, 30, 48, 27, 20, 57, 74])]" time="0.01">
+      <testcase name="testExercise[(a = [95, 90, 29, 32, 62, 59, 20, 59, 87, 30, 48, 27, 20, 57, 74])]" classname="tests.StrangePartitionerTest" time="0.01"/>
+    </testsuite>
+    <testsuite name="[(a = [9, 25, 12, 43, 65])]" time="0.0">
+      <testcase name="testExercise[(a = [9, 25, 12, 43, 65])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [60, 23, 24, 41, 50, 20, 22, 74, 16, 20])]" time="0.001">
+      <testcase name="testExercise[(a = [60, 23, 24, 41, 50, 20, 22, 74, 16, 20])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [11, 58, 49, 1, 3, 61, 85, 62, 12, 72, 65, 83, 6, 68, 85])]" time="0.008">
+      <testcase name="testExercise[(a = [11, 58, 49, 1, 3, 61, 85, 62, 12, 72, 65, 83, 6, 68, 85])]" classname="tests.StrangePartitionerTest" time="0.008"/>
+    </testsuite>
+    <testsuite name="[(a = [8, 79, 2, 98, 67])]" time="0.0">
+      <testcase name="testExercise[(a = [8, 79, 2, 98, 67])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [38, 78, 78, 72, 100, 63, 40, 69, 74, 43])]" time="0.001">
+      <testcase name="testExercise[(a = [38, 78, 78, 72, 100, 63, 40, 69, 74, 43])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [97, 43, 13, 7, 50, 95, 66, 74, 17, 97, 84, 8, 70, 73, 9])]" time="0.008">
+      <testcase name="testExercise[(a = [97, 43, 13, 7, 50, 95, 66, 74, 17, 97, 84, 8, 70, 73, 9])]" classname="tests.StrangePartitionerTest" time="0.008"/>
+    </testsuite>
+    <testsuite name="[(a = [25, 59, 61, 36, 84])]" time="0.0">
+      <testcase name="testExercise[(a = [25, 59, 61, 36, 84])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [37, 85, 43, 74, 16, 47, 73, 27, 39, 61])]" time="0.001">
+      <testcase name="testExercise[(a = [37, 85, 43, 74, 16, 47, 73, 27, 39, 61])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [90, 50, 41, 84, 57, 59, 14, 29, 40, 98, 39, 95, 15, 39, 6])]" time="0.013">
+      <testcase name="testExercise[(a = [90, 50, 41, 84, 57, 59, 14, 29, 40, 98, 39, 95, 15, 39, 6])]" classname="tests.StrangePartitionerTest" time="0.013"/>
+    </testsuite>
+    <testsuite name="[(a = [48, 31, 58, 41, 15])]" time="0.0">
+      <testcase name="testExercise[(a = [48, 31, 58, 41, 15])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [89, 100, 14, 51, 4, 95, 72, 29, 64, 91])]" time="0.001">
+      <testcase name="testExercise[(a = [89, 100, 14, 51, 4, 95, 72, 29, 64, 91])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [2, 78, 17, 29, 28, 95, 26, 32, 58, 86, 45, 33, 14, 75, 40])]" time="0.013">
+      <testcase name="testExercise[(a = [2, 78, 17, 29, 28, 95, 26, 32, 58, 86, 45, 33, 14, 75, 40])]" classname="tests.StrangePartitionerTest" time="0.013"/>
+    </testsuite>
+    <testsuite name="[(a = [26, 13, 54, 9, 99])]" time="0.0">
+      <testcase name="testExercise[(a = [26, 13, 54, 9, 99])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [33, 74, 50, 95, 65, 30, 8, 2, 15, 80])]" time="0.0">
+      <testcase name="testExercise[(a = [33, 74, 50, 95, 65, 30, 8, 2, 15, 80])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [37, 5, 74, 75, 44, 3, 17, 46, 97, 11, 6, 18, 68, 71, 45])]" time="0.004">
+      <testcase name="testExercise[(a = [37, 5, 74, 75, 44, 3, 17, 46, 97, 11, 6, 18, 68, 71, 45])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [63, 12, 57, 54, 16])]" time="0.0">
+      <testcase name="testExercise[(a = [63, 12, 57, 54, 16])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [90, 13, 79, 99, 40, 78, 64, 80, 15, 54])]" time="0.0">
+      <testcase name="testExercise[(a = [90, 13, 79, 99, 40, 78, 64, 80, 15, 54])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [1, 24, 29, 5, 44, 23, 17, 95, 49, 31, 48, 78, 32, 25, 58])]" time="0.004">
+      <testcase name="testExercise[(a = [1, 24, 29, 5, 44, 23, 17, 95, 49, 31, 48, 78, 32, 25, 58])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [38, 49, 30, 87, 2])]" time="0.0">
+      <testcase name="testExercise[(a = [38, 49, 30, 87, 2])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [39, 44, 6, 66, 18, 76, 53, 16, 21, 95])]" time="0.001">
+      <testcase name="testExercise[(a = [39, 44, 6, 66, 18, 76, 53, 16, 21, 95])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [16, 14, 10, 48, 93, 44, 27, 79, 78, 68, 59, 2, 89, 64, 14])]" time="0.004">
+      <testcase name="testExercise[(a = [16, 14, 10, 48, 93, 44, 27, 79, 78, 68, 59, 2, 89, 64, 14])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [55, 42, 69, 62, 61])]" time="0.0">
+      <testcase name="testExercise[(a = [55, 42, 69, 62, 61])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [30, 4, 63, 65, 73, 33, 72, 13, 49, 49])]" time="0.0">
+      <testcase name="testExercise[(a = [30, 4, 63, 65, 73, 33, 72, 13, 49, 49])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [9, 57, 14, 86, 11, 30, 68, 33, 65, 78, 29, 87, 29, 29, 9])]" time="0.006">
+      <testcase name="testExercise[(a = [9, 57, 14, 86, 11, 30, 68, 33, 65, 78, 29, 87, 29, 29, 9])]" classname="tests.StrangePartitionerTest" time="0.006"/>
+    </testsuite>
+    <testsuite name="[(a = [31, 28, 26, 74, 100])]" time="0.0">
+      <testcase name="testExercise[(a = [31, 28, 26, 74, 100])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [60, 42, 57, 86, 78, 77, 24, 20, 48, 64])]" time="0.0">
+      <testcase name="testExercise[(a = [60, 42, 57, 86, 78, 77, 24, 20, 48, 64])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [69, 35, 9, 32, 31, 67, 53, 94, 81, 16, 65, 53, 16, 11, 55])]" time="0.004">
+      <testcase name="testExercise[(a = [69, 35, 9, 32, 31, 67, 53, 94, 81, 16, 65, 53, 16, 11, 55])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [85, 61, 73, 56, 79])]" time="0.0">
+      <testcase name="testExercise[(a = [85, 61, 73, 56, 79])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [3, 87, 18, 76, 88, 89, 79, 33, 48, 16])]" time="0.0">
+      <testcase name="testExercise[(a = [3, 87, 18, 76, 88, 89, 79, 33, 48, 16])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [80, 72, 77, 14, 85, 79, 38, 35, 80, 84, 70, 71, 45, 78, 45])]" time="0.004">
+      <testcase name="testExercise[(a = [80, 72, 77, 14, 85, 79, 38, 35, 80, 84, 70, 71, 45, 78, 45])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [4, 44, 53, 61, 50])]" time="0.0">
+      <testcase name="testExercise[(a = [4, 44, 53, 61, 50])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [19, 48, 63, 53, 82, 26, 36, 32, 29, 43])]" time="0.0">
+      <testcase name="testExercise[(a = [19, 48, 63, 53, 82, 26, 36, 32, 29, 43])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [76, 69, 78, 44, 25, 2, 84, 85, 15, 51, 68, 69, 25, 29, 21])]" time="0.004">
+      <testcase name="testExercise[(a = [76, 69, 78, 44, 25, 2, 84, 85, 15, 51, 68, 69, 25, 29, 21])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [33, 18, 76, 33, 62])]" time="0.0">
+      <testcase name="testExercise[(a = [33, 18, 76, 33, 62])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [21, 36, 46, 67, 99, 59, 74, 75, 14, 97])]" time="0.0">
+      <testcase name="testExercise[(a = [21, 36, 46, 67, 99, 59, 74, 75, 14, 97])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [98, 10, 75, 92, 19, 45, 45, 6, 60, 32, 30, 97, 90, 73, 66])]" time="0.007">
+      <testcase name="testExercise[(a = [98, 10, 75, 92, 19, 45, 45, 6, 60, 32, 30, 97, 90, 73, 66])]" classname="tests.StrangePartitionerTest" time="0.007"/>
+    </testsuite>
+    <testsuite name="[(a = [25, 8, 4, 100, 45])]" time="0.0">
+      <testcase name="testExercise[(a = [25, 8, 4, 100, 45])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [39, 43, 97, 7, 54, 86, 5, 96, 18, 22])]" time="0.0">
+      <testcase name="testExercise[(a = [39, 43, 97, 7, 54, 86, 5, 96, 18, 22])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [73, 40, 30, 80, 77, 79, 51, 20, 66, 67, 23, 80, 49, 30, 8])]" time="0.004">
+      <testcase name="testExercise[(a = [73, 40, 30, 80, 77, 79, 51, 20, 66, 67, 23, 80, 49, 30, 8])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [21, 39, 71, 53, 96])]" time="0.001">
+      <testcase name="testExercise[(a = [21, 39, 71, 53, 96])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [2, 26, 24, 19, 74, 37, 62, 27, 98, 6])]" time="0.0">
+      <testcase name="testExercise[(a = [2, 26, 24, 19, 74, 37, 62, 27, 98, 6])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [92, 95, 60, 27, 37, 27, 27, 69, 26, 43, 52, 26, 9, 82, 61])]" time="0.004">
+      <testcase name="testExercise[(a = [92, 95, 60, 27, 37, 27, 27, 69, 26, 43, 52, 26, 9, 82, 61])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [64, 86, 27, 38, 51])]" time="0.008">
+      <testcase name="testExercise[(a = [64, 86, 27, 38, 51])]" classname="tests.StrangePartitionerTest" time="0.008"/>
+    </testsuite>
+    <testsuite name="[(a = [89, 79, 97, 44, 96, 6, 65, 31, 27, 58])]" time="0.001">
+      <testcase name="testExercise[(a = [89, 79, 97, 44, 96, 6, 65, 31, 27, 58])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [9, 30, 4, 88, 2, 93, 18, 60, 59, 12, 61, 86, 71, 17, 87])]" time="0.004">
+      <testcase name="testExercise[(a = [9, 30, 4, 88, 2, 93, 18, 60, 59, 12, 61, 86, 71, 17, 87])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [18, 44, 82, 29, 87])]" time="0.001">
+      <testcase name="testExercise[(a = [18, 44, 82, 29, 87])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [53, 50, 14, 55, 57, 76, 28, 55, 40, 82])]" time="0.0">
+      <testcase name="testExercise[(a = [53, 50, 14, 55, 57, 76, 28, 55, 40, 82])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [5, 89, 3, 73, 97, 32, 18, 31, 99, 49, 99, 74, 21, 16, 87])]" time="0.003">
+      <testcase name="testExercise[(a = [5, 89, 3, 73, 97, 32, 18, 31, 99, 49, 99, 74, 21, 16, 87])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [84, 73, 60, 38, 63])]" time="0.0">
+      <testcase name="testExercise[(a = [84, 73, 60, 38, 63])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [47, 13, 40, 95, 100, 54, 16, 11, 2, 6])]" time="0.0">
+      <testcase name="testExercise[(a = [47, 13, 40, 95, 100, 54, 16, 11, 2, 6])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [82, 46, 40, 1, 26, 3, 73, 84, 54, 100, 1, 86, 87, 66, 25])]" time="0.005">
+      <testcase name="testExercise[(a = [82, 46, 40, 1, 26, 3, 73, 84, 54, 100, 1, 86, 87, 66, 25])]" classname="tests.StrangePartitionerTest" time="0.005"/>
+    </testsuite>
+    <testsuite name="[(a = [17, 71, 22, 89, 61])]" time="0.0">
+      <testcase name="testExercise[(a = [17, 71, 22, 89, 61])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [60, 41, 48, 82, 21, 35, 17, 49, 59, 42])]" time="0.0">
+      <testcase name="testExercise[(a = [60, 41, 48, 82, 21, 35, 17, 49, 59, 42])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [81, 74, 65, 48, 71, 93, 70, 70, 47, 38, 38, 61, 36, 63, 30])]" time="0.003">
+      <testcase name="testExercise[(a = [81, 74, 65, 48, 71, 93, 70, 70, 47, 38, 38, 61, 36, 63, 30])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [91, 79, 36, 48, 44])]" time="0.001">
+      <testcase name="testExercise[(a = [91, 79, 36, 48, 44])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [28, 60, 27, 93, 48, 19, 6, 34, 95, 2])]" time="0.0">
+      <testcase name="testExercise[(a = [28, 60, 27, 93, 48, 19, 6, 34, 95, 2])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [32, 76, 8, 56, 55, 11, 72, 58, 70, 48, 24, 70, 73, 38, 20])]" time="0.002">
+      <testcase name="testExercise[(a = [32, 76, 8, 56, 55, 11, 72, 58, 70, 48, 24, 70, 73, 38, 20])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [78, 75, 20, 40, 57])]" time="0.0">
+      <testcase name="testExercise[(a = [78, 75, 20, 40, 57])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [60, 72, 59, 28, 20, 37, 14, 92, 39, 97])]" time="0.0">
+      <testcase name="testExercise[(a = [60, 72, 59, 28, 20, 37, 14, 92, 39, 97])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [98, 31, 86, 78, 21, 70, 41, 12, 13, 83, 21, 11, 97, 3, 39])]" time="0.004">
+      <testcase name="testExercise[(a = [98, 31, 86, 78, 21, 70, 41, 12, 13, 83, 21, 11, 97, 3, 39])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [3, 17, 68, 13, 100])]" time="0.0">
+      <testcase name="testExercise[(a = [3, 17, 68, 13, 100])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [91, 93, 56, 59, 48, 23, 62, 73, 27, 49])]" time="0.0">
+      <testcase name="testExercise[(a = [91, 93, 56, 59, 48, 23, 62, 73, 27, 49])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [73, 17, 34, 5, 32, 28, 2, 7, 90, 62, 43, 70, 26, 24, 82])]" time="0.002">
+      <testcase name="testExercise[(a = [73, 17, 34, 5, 32, 28, 2, 7, 90, 62, 43, 70, 26, 24, 82])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [94, 33, 89, 12, 63])]" time="0.001">
+      <testcase name="testExercise[(a = [94, 33, 89, 12, 63])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [2, 70, 57, 12, 13, 21, 8, 82, 25, 34])]" time="0.0">
+      <testcase name="testExercise[(a = [2, 70, 57, 12, 13, 21, 8, 82, 25, 34])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [72, 62, 64, 49, 84, 62, 36, 15, 49, 23, 20, 5, 7, 93, 61])]" time="0.003">
+      <testcase name="testExercise[(a = [72, 62, 64, 49, 84, 62, 36, 15, 49, 23, 20, 5, 7, 93, 61])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [61, 62, 53, 26, 21])]" time="0.0">
+      <testcase name="testExercise[(a = [61, 62, 53, 26, 21])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [94, 69, 17, 23, 31, 83, 71, 16, 74, 31])]" time="0.0">
+      <testcase name="testExercise[(a = [94, 69, 17, 23, 31, 83, 71, 16, 74, 31])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [65, 76, 52, 12, 95, 6, 54, 51, 27, 52, 70, 41, 12, 54, 79])]" time="0.004">
+      <testcase name="testExercise[(a = [65, 76, 52, 12, 95, 6, 54, 51, 27, 52, 70, 41, 12, 54, 79])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [65, 72, 56, 69, 81])]" time="0.0">
+      <testcase name="testExercise[(a = [65, 72, 56, 69, 81])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [51, 82, 82, 72, 26, 72, 40, 43, 4, 24])]" time="0.0">
+      <testcase name="testExercise[(a = [51, 82, 82, 72, 26, 72, 40, 43, 4, 24])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [97, 23, 73, 77, 27, 89, 23, 85, 60, 1, 39, 7, 2, 88, 30])]" time="0.003">
+      <testcase name="testExercise[(a = [97, 23, 73, 77, 27, 89, 23, 85, 60, 1, 39, 7, 2, 88, 30])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [40, 21, 44, 94, 68])]" time="0.0">
+      <testcase name="testExercise[(a = [40, 21, 44, 94, 68])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [86, 36, 9, 96, 64, 67, 94, 61, 21, 100])]" time="0.0">
+      <testcase name="testExercise[(a = [86, 36, 9, 96, 64, 67, 94, 61, 21, 100])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [7, 74, 75, 100, 61, 75, 83, 16, 54, 13, 28, 16, 71, 76, 62])]" time="0.002">
+      <testcase name="testExercise[(a = [7, 74, 75, 100, 61, 75, 83, 16, 54, 13, 28, 16, 71, 76, 62])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [57, 80, 97, 77, 52])]" time="0.0">
+      <testcase name="testExercise[(a = [57, 80, 97, 77, 52])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [92, 78, 69, 24, 7, 37, 65, 21, 2, 82])]" time="0.0">
+      <testcase name="testExercise[(a = [92, 78, 69, 24, 7, 37, 65, 21, 2, 82])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [35, 49, 17, 78, 98, 78, 68, 24, 13, 10, 35, 23, 30, 93, 77])]" time="0.004">
+      <testcase name="testExercise[(a = [35, 49, 17, 78, 98, 78, 68, 24, 13, 10, 35, 23, 30, 93, 77])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [66, 13, 86, 88, 62])]" time="0.0">
+      <testcase name="testExercise[(a = [66, 13, 86, 88, 62])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [75, 29, 37, 9, 7, 14, 15, 68, 40, 46])]" time="0.0">
+      <testcase name="testExercise[(a = [75, 29, 37, 9, 7, 14, 15, 68, 40, 46])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [3, 35, 97, 25, 48, 5, 20, 64, 92, 78, 41, 52, 81, 48, 34])]" time="0.002">
+      <testcase name="testExercise[(a = [3, 35, 97, 25, 48, 5, 20, 64, 92, 78, 41, 52, 81, 48, 34])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [62, 76, 9, 61, 68])]" time="0.0">
+      <testcase name="testExercise[(a = [62, 76, 9, 61, 68])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [1, 4, 73, 7, 91, 72, 90, 78, 54, 99])]" time="0.0">
+      <testcase name="testExercise[(a = [1, 4, 73, 7, 91, 72, 90, 78, 54, 99])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [91, 10, 95, 96, 36, 66, 64, 67, 63, 88, 44, 95, 55, 96, 22])]" time="0.005">
+      <testcase name="testExercise[(a = [91, 10, 95, 96, 36, 66, 64, 67, 63, 88, 44, 95, 55, 96, 22])]" classname="tests.StrangePartitionerTest" time="0.005"/>
+    </testsuite>
+    <testsuite name="[(a = [47, 87, 62, 94, 3])]" time="0.0">
+      <testcase name="testExercise[(a = [47, 87, 62, 94, 3])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [78, 90, 19, 83, 12, 7, 37, 31, 21, 56])]" time="0.0">
+      <testcase name="testExercise[(a = [78, 90, 19, 83, 12, 7, 37, 31, 21, 56])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [5, 75, 11, 67, 22, 26, 76, 19, 65, 38, 37, 71, 34, 73, 74])]" time="0.004">
+      <testcase name="testExercise[(a = [5, 75, 11, 67, 22, 26, 76, 19, 65, 38, 37, 71, 34, 73, 74])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [91, 71, 52, 20, 25])]" time="0.0">
+      <testcase name="testExercise[(a = [91, 71, 52, 20, 25])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [26, 77, 44, 87, 47, 24, 7, 67, 13, 7])]" time="0.0">
+      <testcase name="testExercise[(a = [26, 77, 44, 87, 47, 24, 7, 67, 13, 7])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [33, 46, 40, 85, 52, 10, 98, 92, 48, 52, 3, 97, 90, 5, 74])]" time="0.002">
+      <testcase name="testExercise[(a = [33, 46, 40, 85, 52, 10, 98, 92, 48, 52, 3, 97, 90, 5, 74])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [7, 37, 40, 27, 43])]" time="0.001">
+      <testcase name="testExercise[(a = [7, 37, 40, 27, 43])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [77, 1, 19, 75, 22, 25, 72, 26, 58, 91])]" time="0.0">
+      <testcase name="testExercise[(a = [77, 1, 19, 75, 22, 25, 72, 26, 58, 91])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [87, 88, 49, 23, 88, 98, 13, 58, 61, 20, 20, 11, 27, 93, 83])]" time="0.002">
+      <testcase name="testExercise[(a = [87, 88, 49, 23, 88, 98, 13, 58, 61, 20, 20, 11, 27, 93, 83])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [73, 12, 68, 18, 71])]" time="0.0">
+      <testcase name="testExercise[(a = [73, 12, 68, 18, 71])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [94, 42, 71, 2, 93, 72, 51, 18, 70, 87])]" time="0.0">
+      <testcase name="testExercise[(a = [94, 42, 71, 2, 93, 72, 51, 18, 70, 87])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [87, 21, 52, 83, 55, 73, 16, 22, 66, 54, 45, 70, 56, 81, 48])]" time="0.003">
+      <testcase name="testExercise[(a = [87, 21, 52, 83, 55, 73, 16, 22, 66, 54, 45, 70, 56, 81, 48])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [39, 87, 78, 88, 16])]" time="0.0">
+      <testcase name="testExercise[(a = [39, 87, 78, 88, 16])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [66, 48, 30, 42, 64, 65, 73, 17, 66, 50])]" time="0.0">
+      <testcase name="testExercise[(a = [66, 48, 30, 42, 64, 65, 73, 17, 66, 50])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [33, 62, 95, 41, 41, 84, 3, 64, 39, 94, 91, 4, 83, 41, 100])]" time="0.003">
+      <testcase name="testExercise[(a = [33, 62, 95, 41, 41, 84, 3, 64, 39, 94, 91, 4, 83, 41, 100])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [91, 25, 27, 8, 14])]" time="0.0">
+      <testcase name="testExercise[(a = [91, 25, 27, 8, 14])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [16, 29, 68, 90, 18, 51, 72, 49, 55, 87])]" time="0.0">
+      <testcase name="testExercise[(a = [16, 29, 68, 90, 18, 51, 72, 49, 55, 87])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [48, 48, 19, 42, 55, 98, 75, 69, 38, 34, 59, 86, 46, 27, 30])]" time="0.003">
+      <testcase name="testExercise[(a = [48, 48, 19, 42, 55, 98, 75, 69, 38, 34, 59, 86, 46, 27, 30])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [92, 86, 30, 89, 72])]" time="0.0">
+      <testcase name="testExercise[(a = [92, 86, 30, 89, 72])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [37, 46, 90, 60, 40, 31, 62, 64, 97, 55])]" time="0.0">
+      <testcase name="testExercise[(a = [37, 46, 90, 60, 40, 31, 62, 64, 97, 55])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [92, 88, 89, 53, 39, 56, 19, 54, 29, 14, 50, 6, 16, 44, 64])]" time="0.002">
+      <testcase name="testExercise[(a = [92, 88, 89, 53, 39, 56, 19, 54, 29, 14, 50, 6, 16, 44, 64])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [38, 16, 98, 67, 98])]" time="0.001">
+      <testcase name="testExercise[(a = [38, 16, 98, 67, 98])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [78, 74, 21, 24, 17, 23, 41, 93, 16, 65])]" time="0.0">
+      <testcase name="testExercise[(a = [78, 74, 21, 24, 17, 23, 41, 93, 16, 65])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [77, 65, 10, 58, 95, 38, 53, 2, 56, 59, 30, 45, 52, 28, 83])]" time="0.002">
+      <testcase name="testExercise[(a = [77, 65, 10, 58, 95, 38, 53, 2, 56, 59, 30, 45, 52, 28, 83])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [45, 63, 57, 20, 23])]" time="0.0">
+      <testcase name="testExercise[(a = [45, 63, 57, 20, 23])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [77, 74, 7, 18, 66, 25, 71, 97, 12, 93])]" time="0.001">
+      <testcase name="testExercise[(a = [77, 74, 7, 18, 66, 25, 71, 97, 12, 93])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [22, 50, 74, 16, 40, 11, 99, 39, 2, 2, 12, 53, 72, 3, 79])]" time="0.005">
+      <testcase name="testExercise[(a = [22, 50, 74, 16, 40, 11, 99, 39, 2, 2, 12, 53, 72, 3, 79])]" classname="tests.StrangePartitionerTest" time="0.005"/>
+    </testsuite>
+    <testsuite name="[(a = [41, 69, 89, 95, 33])]" time="0.0">
+      <testcase name="testExercise[(a = [41, 69, 89, 95, 33])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [70, 24, 13, 15, 57, 83, 56, 7, 80, 59])]" time="0.0">
+      <testcase name="testExercise[(a = [70, 24, 13, 15, 57, 83, 56, 7, 80, 59])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [41, 67, 89, 72, 72, 88, 89, 3, 12, 13, 59, 80, 98, 88, 66])]" time="0.004">
+      <testcase name="testExercise[(a = [41, 67, 89, 72, 72, 88, 89, 3, 12, 13, 59, 80, 98, 88, 66])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [43, 21, 65, 58, 100])]" time="0.0">
+      <testcase name="testExercise[(a = [43, 21, 65, 58, 100])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [11, 7, 71, 73, 41, 74, 89, 89, 6, 4])]" time="0.0">
+      <testcase name="testExercise[(a = [11, 7, 71, 73, 41, 74, 89, 89, 6, 4])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [26, 45, 54, 26, 90, 14, 10, 24, 22, 13, 92, 24, 13, 67, 1])]" time="0.002">
+      <testcase name="testExercise[(a = [26, 45, 54, 26, 90, 14, 10, 24, 22, 13, 92, 24, 13, 67, 1])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [80, 1, 49, 67, 20])]" time="0.0">
+      <testcase name="testExercise[(a = [80, 1, 49, 67, 20])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [64, 72, 53, 89, 53, 14, 35, 53, 93, 61])]" time="0.0">
+      <testcase name="testExercise[(a = [64, 72, 53, 89, 53, 14, 35, 53, 93, 61])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [35, 32, 83, 27, 26, 29, 80, 92, 38, 79, 77, 66, 41, 51, 66])]" time="0.004">
+      <testcase name="testExercise[(a = [35, 32, 83, 27, 26, 29, 80, 92, 38, 79, 77, 66, 41, 51, 66])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [31, 21, 82, 48, 85])]" time="0.0">
+      <testcase name="testExercise[(a = [31, 21, 82, 48, 85])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [89, 60, 21, 22, 74, 65, 46, 35, 31, 68])]" time="0.0">
+      <testcase name="testExercise[(a = [89, 60, 21, 22, 74, 65, 46, 35, 31, 68])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [43, 23, 63, 32, 70, 25, 25, 94, 47, 74, 99, 78, 3, 65, 23])]" time="0.003">
+      <testcase name="testExercise[(a = [43, 23, 63, 32, 70, 25, 25, 94, 47, 74, 99, 78, 3, 65, 23])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [23, 68, 31, 31, 85])]" time="0.0">
+      <testcase name="testExercise[(a = [23, 68, 31, 31, 85])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [70, 60, 42, 42, 90, 81, 79, 27, 83, 70])]" time="0.0">
+      <testcase name="testExercise[(a = [70, 60, 42, 42, 90, 81, 79, 27, 83, 70])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [9, 48, 99, 13, 38, 26, 34, 39, 74, 18, 85, 27, 26, 19, 24])]" time="0.003">
+      <testcase name="testExercise[(a = [9, 48, 99, 13, 38, 26, 34, 39, 74, 18, 85, 27, 26, 19, 24])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [57, 15, 77, 63, 95])]" time="0.0">
+      <testcase name="testExercise[(a = [57, 15, 77, 63, 95])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [64, 42, 72, 27, 88, 18, 96, 98, 92, 32])]" time="0.0">
+      <testcase name="testExercise[(a = [64, 42, 72, 27, 88, 18, 96, 98, 92, 32])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [25, 28, 6, 60, 15, 26, 81, 9, 54, 2, 39, 32, 87, 96, 83])]" time="0.002">
+      <testcase name="testExercise[(a = [25, 28, 6, 60, 15, 26, 81, 9, 54, 2, 39, 32, 87, 96, 83])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [87, 24, 22, 70, 41])]" time="0.0">
+      <testcase name="testExercise[(a = [87, 24, 22, 70, 41])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [76, 26, 25, 17, 70, 99, 51, 46, 84, 84])]" time="0.001">
+      <testcase name="testExercise[(a = [76, 26, 25, 17, 70, 99, 51, 46, 84, 84])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [52, 79, 10, 39, 45, 49, 84, 82, 65, 60, 78, 70, 47, 83, 74])]" time="0.002">
+      <testcase name="testExercise[(a = [52, 79, 10, 39, 45, 49, 84, 82, 65, 60, 78, 70, 47, 83, 74])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [96, 12, 98, 63, 88])]" time="0.0">
+      <testcase name="testExercise[(a = [96, 12, 98, 63, 88])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [22, 48, 11, 33, 26, 63, 81, 97, 97, 34])]" time="0.001">
+      <testcase name="testExercise[(a = [22, 48, 11, 33, 26, 63, 81, 97, 97, 34])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [8, 67, 26, 17, 29, 35, 97, 14, 3, 14, 8, 78, 77, 22, 24])]" time="0.003">
+      <testcase name="testExercise[(a = [8, 67, 26, 17, 29, 35, 97, 14, 3, 14, 8, 78, 77, 22, 24])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [30, 35, 37, 17, 67])]" time="0.0">
+      <testcase name="testExercise[(a = [30, 35, 37, 17, 67])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [14, 67, 99, 65, 81, 81, 51, 16, 48, 20])]" time="0.0">
+      <testcase name="testExercise[(a = [14, 67, 99, 65, 81, 81, 51, 16, 48, 20])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [27, 1, 38, 77, 55, 76, 26, 51, 61, 6, 64, 90, 4, 46, 25])]" time="0.003">
+      <testcase name="testExercise[(a = [27, 1, 38, 77, 55, 76, 26, 51, 61, 6, 64, 90, 4, 46, 25])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [98, 58, 76, 5, 76])]" time="0.0">
+      <testcase name="testExercise[(a = [98, 58, 76, 5, 76])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [68, 3, 25, 21, 73, 52, 61, 73, 38, 26])]" time="0.0">
+      <testcase name="testExercise[(a = [68, 3, 25, 21, 73, 52, 61, 73, 38, 26])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [80, 38, 15, 73, 97, 61, 22, 24, 26, 49, 74, 45, 73, 51, 64])]" time="0.004">
+      <testcase name="testExercise[(a = [80, 38, 15, 73, 97, 61, 22, 24, 26, 49, 74, 45, 73, 51, 64])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [15, 8, 56, 92, 23])]" time="0.001">
+      <testcase name="testExercise[(a = [15, 8, 56, 92, 23])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [59, 83, 33, 25, 9, 49, 29, 51, 71, 55])]" time="0.001">
+      <testcase name="testExercise[(a = [59, 83, 33, 25, 9, 49, 29, 51, 71, 55])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [92, 1, 23, 14, 50, 95, 20, 17, 42, 44, 83, 68, 43, 68, 86])]" time="0.005">
+      <testcase name="testExercise[(a = [92, 1, 23, 14, 50, 95, 20, 17, 42, 44, 83, 68, 43, 68, 86])]" classname="tests.StrangePartitionerTest" time="0.005"/>
+    </testsuite>
+    <testsuite name="[(a = [80, 95, 20, 54, 48])]" time="0.0">
+      <testcase name="testExercise[(a = [80, 95, 20, 54, 48])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [36, 45, 38, 45, 28, 10, 56, 2, 63, 91])]" time="0.0">
+      <testcase name="testExercise[(a = [36, 45, 38, 45, 28, 10, 56, 2, 63, 91])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [71, 45, 21, 87, 53, 46, 22, 70, 38, 51, 81, 45, 56, 5, 8])]" time="0.003">
+      <testcase name="testExercise[(a = [71, 45, 21, 87, 53, 46, 22, 70, 38, 51, 81, 45, 56, 5, 8])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [3, 78, 93, 100, 16])]" time="0.0">
+      <testcase name="testExercise[(a = [3, 78, 93, 100, 16])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [94, 38, 6, 90, 91, 88, 6, 55, 68, 22])]" time="0.0">
+      <testcase name="testExercise[(a = [94, 38, 6, 90, 91, 88, 6, 55, 68, 22])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [99, 21, 100, 87, 2, 63, 98, 43, 17, 27, 88, 68, 100, 88, 10])]" time="0.003">
+      <testcase name="testExercise[(a = [99, 21, 100, 87, 2, 63, 98, 43, 17, 27, 88, 68, 100, 88, 10])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [13, 16, 63, 35, 55])]" time="0.0">
+      <testcase name="testExercise[(a = [13, 16, 63, 35, 55])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [97, 40, 38, 26, 91, 16, 53, 23, 53, 77])]" time="0.0">
+      <testcase name="testExercise[(a = [97, 40, 38, 26, 91, 16, 53, 23, 53, 77])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [28, 5, 41, 75, 19, 28, 59, 69, 77, 13, 48, 13, 51, 80, 20])]" time="0.004">
+      <testcase name="testExercise[(a = [28, 5, 41, 75, 19, 28, 59, 69, 77, 13, 48, 13, 51, 80, 20])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [48, 40, 29, 40, 71])]" time="0.0">
+      <testcase name="testExercise[(a = [48, 40, 29, 40, 71])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [68, 24, 72, 97, 84, 10, 41, 35, 39, 20])]" time="0.0">
+      <testcase name="testExercise[(a = [68, 24, 72, 97, 84, 10, 41, 35, 39, 20])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [23, 26, 83, 90, 35, 48, 98, 28, 82, 53, 76, 88, 6, 1, 7])]" time="0.005">
+      <testcase name="testExercise[(a = [23, 26, 83, 90, 35, 48, 98, 28, 82, 53, 76, 88, 6, 1, 7])]" classname="tests.StrangePartitionerTest" time="0.005"/>
+    </testsuite>
+    <testsuite name="[(a = [41, 17, 89, 24, 22])]" time="0.001">
+      <testcase name="testExercise[(a = [41, 17, 89, 24, 22])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [5, 1, 56, 18, 52, 72, 51, 66, 81, 96])]" time="0.0">
+      <testcase name="testExercise[(a = [5, 1, 56, 18, 52, 72, 51, 66, 81, 96])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [65, 8, 93, 31, 61, 73, 74, 12, 17, 84, 60, 50, 38, 65, 35])]" time="0.004">
+      <testcase name="testExercise[(a = [65, 8, 93, 31, 61, 73, 74, 12, 17, 84, 60, 50, 38, 65, 35])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [39, 22, 9, 39, 72])]" time="0.0">
+      <testcase name="testExercise[(a = [39, 22, 9, 39, 72])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [96, 74, 47, 53, 10, 2, 2, 73, 36, 58])]" time="0.001">
+      <testcase name="testExercise[(a = [96, 74, 47, 53, 10, 2, 2, 73, 36, 58])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [53, 84, 1, 96, 42, 71, 3, 45, 12, 47, 93, 88, 40, 77, 81])]" time="0.003">
+      <testcase name="testExercise[(a = [53, 84, 1, 96, 42, 71, 3, 45, 12, 47, 93, 88, 40, 77, 81])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [82, 39, 9, 59, 32])]" time="0.0">
+      <testcase name="testExercise[(a = [82, 39, 9, 59, 32])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [48, 89, 50, 78, 100, 52, 66, 13, 51, 83])]" time="0.0">
+      <testcase name="testExercise[(a = [48, 89, 50, 78, 100, 52, 66, 13, 51, 83])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [93, 67, 77, 51, 38, 22, 58, 61, 34, 57, 14, 100, 34, 4, 21])]" time="0.002">
+      <testcase name="testExercise[(a = [93, 67, 77, 51, 38, 22, 58, 61, 34, 57, 14, 100, 34, 4, 21])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [59, 48, 7, 4, 22])]" time="0.001">
+      <testcase name="testExercise[(a = [59, 48, 7, 4, 22])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [13, 55, 89, 13, 61, 63, 3, 64, 100, 95])]" time="0.0">
+      <testcase name="testExercise[(a = [13, 55, 89, 13, 61, 63, 3, 64, 100, 95])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [42, 57, 40, 53, 44, 70, 86, 26, 65, 81, 43, 7, 22, 70, 19])]" time="0.003">
+      <testcase name="testExercise[(a = [42, 57, 40, 53, 44, 70, 86, 26, 65, 81, 43, 7, 22, 70, 19])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [74, 57, 80, 68, 59])]" time="0.0">
+      <testcase name="testExercise[(a = [74, 57, 80, 68, 59])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [54, 29, 68, 63, 80, 85, 38, 50, 29, 46])]" time="0.0">
+      <testcase name="testExercise[(a = [54, 29, 68, 63, 80, 85, 38, 50, 29, 46])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [71, 70, 2, 28, 96, 34, 29, 7, 1, 48, 82, 8, 3, 56, 59])]" time="0.004">
+      <testcase name="testExercise[(a = [71, 70, 2, 28, 96, 34, 29, 7, 1, 48, 82, 8, 3, 56, 59])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [16, 2, 45, 99, 59])]" time="0.0">
+      <testcase name="testExercise[(a = [16, 2, 45, 99, 59])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [58, 57, 24, 65, 84, 34, 34, 17, 99, 25])]" time="0.0">
+      <testcase name="testExercise[(a = [58, 57, 24, 65, 84, 34, 34, 17, 99, 25])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [49, 19, 84, 25, 45, 47, 30, 96, 29, 31, 26, 52, 99, 95, 2])]" time="0.003">
+      <testcase name="testExercise[(a = [49, 19, 84, 25, 45, 47, 30, 96, 29, 31, 26, 52, 99, 95, 2])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [65, 39, 92, 38, 28])]" time="0.0">
+      <testcase name="testExercise[(a = [65, 39, 92, 38, 28])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [53, 46, 39, 87, 64, 11, 6, 28, 97, 21])]" time="0.0">
+      <testcase name="testExercise[(a = [53, 46, 39, 87, 64, 11, 6, 28, 97, 21])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [71, 41, 13, 61, 82, 37, 92, 45, 48, 22, 30, 34, 67, 73, 86])]" time="0.004">
+      <testcase name="testExercise[(a = [71, 41, 13, 61, 82, 37, 92, 45, 48, 22, 30, 34, 67, 73, 86])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [55, 14, 61, 24, 6])]" time="0.0">
+      <testcase name="testExercise[(a = [55, 14, 61, 24, 6])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [39, 73, 70, 47, 78, 94, 70, 88, 2, 97])]" time="0.001">
+      <testcase name="testExercise[(a = [39, 73, 70, 47, 78, 94, 70, 88, 2, 97])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [19, 70, 19, 44, 58, 30, 66, 7, 25, 19, 99, 53, 96, 93, 91])]" time="0.003">
+      <testcase name="testExercise[(a = [19, 70, 19, 44, 58, 30, 66, 7, 25, 19, 99, 53, 96, 93, 91])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [90, 21, 88, 80, 21])]" time="0.0">
+      <testcase name="testExercise[(a = [90, 21, 88, 80, 21])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [85, 4, 52, 74, 55, 77, 61, 11, 27, 69])]" time="0.0">
+      <testcase name="testExercise[(a = [85, 4, 52, 74, 55, 77, 61, 11, 27, 69])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [18, 24, 45, 73, 89, 23, 42, 12, 31, 29, 55, 44, 4, 70, 84])]" time="0.004">
+      <testcase name="testExercise[(a = [18, 24, 45, 73, 89, 23, 42, 12, 31, 29, 55, 44, 4, 70, 84])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [39, 45, 27, 46, 18])]" time="0.0">
+      <testcase name="testExercise[(a = [39, 45, 27, 46, 18])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [24, 92, 5, 77, 62, 1, 1, 34, 87, 94])]" time="0.0">
+      <testcase name="testExercise[(a = [24, 92, 5, 77, 62, 1, 1, 34, 87, 94])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [97, 22, 64, 78, 34, 88, 93, 90, 100, 89, 33, 87, 27, 14, 16])]" time="0.003">
+      <testcase name="testExercise[(a = [97, 22, 64, 78, 34, 88, 93, 90, 100, 89, 33, 87, 27, 14, 16])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [99, 80, 67, 6, 71])]" time="0.001">
+      <testcase name="testExercise[(a = [99, 80, 67, 6, 71])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [48, 65, 90, 25, 95, 1, 21, 52, 57, 95])]" time="0.0">
+      <testcase name="testExercise[(a = [48, 65, 90, 25, 95, 1, 21, 52, 57, 95])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [83, 98, 10, 74, 28, 2, 1, 46, 100, 77, 32, 41, 83, 65, 38])]" time="0.003">
+      <testcase name="testExercise[(a = [83, 98, 10, 74, 28, 2, 1, 46, 100, 77, 32, 41, 83, 65, 38])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [98, 100, 48, 69, 57])]" time="0.0">
+      <testcase name="testExercise[(a = [98, 100, 48, 69, 57])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [55, 25, 60, 38, 8, 42, 43, 89, 2, 34])]" time="0.0">
+      <testcase name="testExercise[(a = [55, 25, 60, 38, 8, 42, 43, 89, 2, 34])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [10, 45, 53, 70, 100, 99, 6, 26, 84, 11, 70, 67, 6, 63, 61])]" time="0.003">
+      <testcase name="testExercise[(a = [10, 45, 53, 70, 100, 99, 6, 26, 84, 11, 70, 67, 6, 63, 61])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [90, 90, 32, 42, 60])]" time="0.0">
+      <testcase name="testExercise[(a = [90, 90, 32, 42, 60])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [21, 35, 68, 78, 98, 50, 79, 20, 83, 79])]" time="0.0">
+      <testcase name="testExercise[(a = [21, 35, 68, 78, 98, 50, 79, 20, 83, 79])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [77, 64, 94, 24, 46, 70, 53, 39, 63, 100, 36, 60, 97, 39, 96])]" time="0.004">
+      <testcase name="testExercise[(a = [77, 64, 94, 24, 46, 70, 53, 39, 63, 100, 36, 60, 97, 39, 96])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [13, 57, 5, 63, 30])]" time="0.0">
+      <testcase name="testExercise[(a = [13, 57, 5, 63, 30])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [75, 96, 6, 41, 47, 5, 10, 68, 85, 12])]" time="0.0">
+      <testcase name="testExercise[(a = [75, 96, 6, 41, 47, 5, 10, 68, 85, 12])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [92, 41, 20, 4, 33, 4, 47, 16, 83, 39, 20, 54, 47, 88, 90])]" time="0.004">
+      <testcase name="testExercise[(a = [92, 41, 20, 4, 33, 4, 47, 16, 83, 39, 20, 54, 47, 88, 90])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [50, 37, 83, 37, 54])]" time="0.001">
+      <testcase name="testExercise[(a = [50, 37, 83, 37, 54])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [13, 21, 44, 47, 35, 43, 59, 90, 59, 75])]" time="0.0">
+      <testcase name="testExercise[(a = [13, 21, 44, 47, 35, 43, 59, 90, 59, 75])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [36, 80, 8, 16, 38, 11, 99, 86, 3, 53, 38, 16, 62, 86, 80])]" time="0.003">
+      <testcase name="testExercise[(a = [36, 80, 8, 16, 38, 11, 99, 86, 3, 53, 38, 16, 62, 86, 80])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [42, 72, 34, 9, 99])]" time="0.0">
+      <testcase name="testExercise[(a = [42, 72, 34, 9, 99])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [37, 100, 98, 11, 81, 62, 22, 53, 15, 72])]" time="0.0">
+      <testcase name="testExercise[(a = [37, 100, 98, 11, 81, 62, 22, 53, 15, 72])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [29, 69, 25, 60, 81, 68, 23, 16, 95, 27, 59, 47, 22, 46, 73])]" time="0.003">
+      <testcase name="testExercise[(a = [29, 69, 25, 60, 81, 68, 23, 16, 95, 27, 59, 47, 22, 46, 73])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [72, 46, 73, 4, 27])]" time="0.0">
+      <testcase name="testExercise[(a = [72, 46, 73, 4, 27])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [47, 37, 74, 71, 23, 69, 14, 6, 77, 91])]" time="0.001">
+      <testcase name="testExercise[(a = [47, 37, 74, 71, 23, 69, 14, 6, 77, 91])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [63, 22, 53, 75, 17, 53, 40, 72, 29, 34, 73, 88, 34, 8, 52])]" time="0.002">
+      <testcase name="testExercise[(a = [63, 22, 53, 75, 17, 53, 40, 72, 29, 34, 73, 88, 34, 8, 52])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [82, 97, 1, 90, 19])]" time="0.0">
+      <testcase name="testExercise[(a = [82, 97, 1, 90, 19])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [35, 21, 71, 73, 91, 23, 18, 42, 100, 44])]" time="0.0">
+      <testcase name="testExercise[(a = [35, 21, 71, 73, 91, 23, 18, 42, 100, 44])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [16, 53, 13, 37, 69, 95, 67, 34, 86, 24, 80, 86, 67, 11, 11])]" time="0.003">
+      <testcase name="testExercise[(a = [16, 53, 13, 37, 69, 95, 67, 34, 86, 24, 80, 86, 67, 11, 11])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [35, 32, 95, 20, 35])]" time="0.0">
+      <testcase name="testExercise[(a = [35, 32, 95, 20, 35])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [12, 12, 83, 39, 49, 56, 22, 32, 35, 92])]" time="0.0">
+      <testcase name="testExercise[(a = [12, 12, 83, 39, 49, 56, 22, 32, 35, 92])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [80, 50, 6, 23, 81, 67, 1, 73, 52, 98, 22, 73, 93, 57, 53])]" time="0.003">
+      <testcase name="testExercise[(a = [80, 50, 6, 23, 81, 67, 1, 73, 52, 98, 22, 73, 93, 57, 53])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [16, 61, 82, 55, 33])]" time="0.0">
+      <testcase name="testExercise[(a = [16, 61, 82, 55, 33])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [85, 95, 11, 6, 28, 34, 75, 100, 85, 14])]" time="0.0">
+      <testcase name="testExercise[(a = [85, 95, 11, 6, 28, 34, 75, 100, 85, 14])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [74, 53, 61, 34, 25, 93, 68, 58, 63, 88, 39, 16, 89, 81, 37])]" time="0.005">
+      <testcase name="testExercise[(a = [74, 53, 61, 34, 25, 93, 68, 58, 63, 88, 39, 16, 89, 81, 37])]" classname="tests.StrangePartitionerTest" time="0.005"/>
+    </testsuite>
+    <testsuite name="[(a = [78, 37, 28, 79, 57])]" time="0.0">
+      <testcase name="testExercise[(a = [78, 37, 28, 79, 57])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [32, 22, 21, 76, 51, 35, 41, 20, 82, 9])]" time="0.0">
+      <testcase name="testExercise[(a = [32, 22, 21, 76, 51, 35, 41, 20, 82, 9])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [92, 63, 26, 26, 24, 5, 54, 20, 48, 32, 91, 76, 67, 30, 42])]" time="0.004">
+      <testcase name="testExercise[(a = [92, 63, 26, 26, 24, 5, 54, 20, 48, 32, 91, 76, 67, 30, 42])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [6, 8, 26, 70, 23])]" time="0.0">
+      <testcase name="testExercise[(a = [6, 8, 26, 70, 23])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [63, 40, 42, 72, 6, 73, 51, 95, 36, 19])]" time="0.0">
+      <testcase name="testExercise[(a = [63, 40, 42, 72, 6, 73, 51, 95, 36, 19])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [72, 25, 98, 22, 55, 86, 54, 52, 90, 3, 99, 79, 94, 67, 67])]" time="0.003">
+      <testcase name="testExercise[(a = [72, 25, 98, 22, 55, 86, 54, 52, 90, 3, 99, 79, 94, 67, 67])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [63, 45, 13, 33, 54])]" time="0.0">
+      <testcase name="testExercise[(a = [63, 45, 13, 33, 54])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [77, 9, 1, 30, 11, 20, 53, 53, 7, 47])]" time="0.0">
+      <testcase name="testExercise[(a = [77, 9, 1, 30, 11, 20, 53, 53, 7, 47])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [44, 40, 76, 93, 62, 70, 92, 20, 98, 49, 87, 87, 45, 84, 40])]" time="0.003">
+      <testcase name="testExercise[(a = [44, 40, 76, 93, 62, 70, 92, 20, 98, 49, 87, 87, 45, 84, 40])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [61, 95, 59, 92, 6])]" time="0.0">
+      <testcase name="testExercise[(a = [61, 95, 59, 92, 6])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [1, 49, 24, 20, 94, 11, 13, 99, 17, 30])]" time="0.0">
+      <testcase name="testExercise[(a = [1, 49, 24, 20, 94, 11, 13, 99, 17, 30])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [34, 51, 13, 78, 36, 67, 39, 43, 59, 92, 47, 92, 20, 88, 32])]" time="0.003">
+      <testcase name="testExercise[(a = [34, 51, 13, 78, 36, 67, 39, 43, 59, 92, 47, 92, 20, 88, 32])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [73, 57, 17, 96, 47])]" time="0.0">
+      <testcase name="testExercise[(a = [73, 57, 17, 96, 47])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [52, 89, 14, 6, 2, 43, 99, 53, 96, 23])]" time="0.0">
+      <testcase name="testExercise[(a = [52, 89, 14, 6, 2, 43, 99, 53, 96, 23])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [31, 86, 31, 18, 32, 43, 15, 22, 99, 74, 20, 24, 40, 53, 75])]" time="0.004">
+      <testcase name="testExercise[(a = [31, 86, 31, 18, 32, 43, 15, 22, 99, 74, 20, 24, 40, 53, 75])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [47, 22, 87, 64, 70])]" time="0.0">
+      <testcase name="testExercise[(a = [47, 22, 87, 64, 70])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [93, 29, 40, 49, 67, 37, 41, 68, 96, 26])]" time="0.0">
+      <testcase name="testExercise[(a = [93, 29, 40, 49, 67, 37, 41, 68, 96, 26])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [35, 5, 67, 97, 76, 97, 86, 7, 30, 8, 63, 60, 53, 16, 100])]" time="0.004">
+      <testcase name="testExercise[(a = [35, 5, 67, 97, 76, 97, 86, 7, 30, 8, 63, 60, 53, 16, 100])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [62, 61, 10, 15, 80])]" time="0.0">
+      <testcase name="testExercise[(a = [62, 61, 10, 15, 80])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [28, 81, 2, 94, 12, 65, 51, 99, 43, 62])]" time="0.0">
+      <testcase name="testExercise[(a = [28, 81, 2, 94, 12, 65, 51, 99, 43, 62])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [89, 49, 11, 99, 20, 100, 43, 74, 28, 87, 8, 17, 74, 56, 49])]" time="0.004">
+      <testcase name="testExercise[(a = [89, 49, 11, 99, 20, 100, 43, 74, 28, 87, 8, 17, 74, 56, 49])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [78, 87, 20, 54, 29])]" time="0.0">
+      <testcase name="testExercise[(a = [78, 87, 20, 54, 29])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [3, 44, 41, 98, 62, 59, 89, 43, 82, 46])]" time="0.0">
+      <testcase name="testExercise[(a = [3, 44, 41, 98, 62, 59, 89, 43, 82, 46])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [46, 68, 16, 59, 10, 62, 16, 76, 46, 9, 80, 40, 73, 83, 84])]" time="0.003">
+      <testcase name="testExercise[(a = [46, 68, 16, 59, 10, 62, 16, 76, 46, 9, 80, 40, 73, 83, 84])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [89, 40, 93, 83, 23])]" time="0.0">
+      <testcase name="testExercise[(a = [89, 40, 93, 83, 23])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [57, 89, 33, 53, 27, 53, 9, 28, 99, 73])]" time="0.0">
+      <testcase name="testExercise[(a = [57, 89, 33, 53, 27, 53, 9, 28, 99, 73])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [55, 13, 9, 31, 2, 5, 50, 44, 50, 63, 3, 87, 59, 90, 50])]" time="0.003">
+      <testcase name="testExercise[(a = [55, 13, 9, 31, 2, 5, 50, 44, 50, 63, 3, 87, 59, 90, 50])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [100, 75, 99, 41, 6])]" time="0.0">
+      <testcase name="testExercise[(a = [100, 75, 99, 41, 6])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [94, 27, 95, 61, 12, 39, 75, 83, 55, 86])]" time="0.0">
+      <testcase name="testExercise[(a = [94, 27, 95, 61, 12, 39, 75, 83, 55, 86])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [49, 16, 21, 16, 23, 50, 21, 69, 38, 9, 46, 87, 33, 3, 28])]" time="0.002">
+      <testcase name="testExercise[(a = [49, 16, 21, 16, 23, 50, 21, 69, 38, 9, 46, 87, 33, 3, 28])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [85, 2, 71, 94, 11])]" time="0.0">
+      <testcase name="testExercise[(a = [85, 2, 71, 94, 11])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [28, 35, 89, 27, 21, 82, 25, 91, 87, 66])]" time="0.0">
+      <testcase name="testExercise[(a = [28, 35, 89, 27, 21, 82, 25, 91, 87, 66])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [6, 9, 22, 10, 93, 85, 50, 45, 95, 12, 39, 68, 37, 29, 70])]" time="0.004">
+      <testcase name="testExercise[(a = [6, 9, 22, 10, 93, 85, 50, 45, 95, 12, 39, 68, 37, 29, 70])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [66, 69, 65, 88, 80])]" time="0.0">
+      <testcase name="testExercise[(a = [66, 69, 65, 88, 80])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [25, 22, 39, 8, 48, 66, 66, 58, 83, 74])]" time="0.0">
+      <testcase name="testExercise[(a = [25, 22, 39, 8, 48, 66, 66, 58, 83, 74])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [66, 97, 98, 4, 97, 8, 71, 14, 83, 66, 13, 40, 86, 49, 80])]" time="0.003">
+      <testcase name="testExercise[(a = [66, 97, 98, 4, 97, 8, 71, 14, 83, 66, 13, 40, 86, 49, 80])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [4, 9, 29, 88, 69])]" time="0.0">
+      <testcase name="testExercise[(a = [4, 9, 29, 88, 69])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [44, 87, 75, 21, 93, 23, 51, 66, 95, 86])]" time="0.0">
+      <testcase name="testExercise[(a = [44, 87, 75, 21, 93, 23, 51, 66, 95, 86])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [98, 84, 15, 80, 60, 73, 94, 33, 100, 44, 31, 12, 72, 4, 2])]" time="0.004">
+      <testcase name="testExercise[(a = [98, 84, 15, 80, 60, 73, 94, 33, 100, 44, 31, 12, 72, 4, 2])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [86, 91, 77, 72, 48])]" time="0.0">
+      <testcase name="testExercise[(a = [86, 91, 77, 72, 48])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [35, 61, 91, 50, 96, 28, 41, 42, 81, 86])]" time="0.0">
+      <testcase name="testExercise[(a = [35, 61, 91, 50, 96, 28, 41, 42, 81, 86])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [1, 14, 76, 14, 71, 41, 4, 3, 47, 65, 46, 69, 31, 81, 48])]" time="0.003">
+      <testcase name="testExercise[(a = [1, 14, 76, 14, 71, 41, 4, 3, 47, 65, 46, 69, 31, 81, 48])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [19, 52, 35, 98, 95])]" time="0.0">
+      <testcase name="testExercise[(a = [19, 52, 35, 98, 95])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [99, 59, 60, 77, 73, 72, 19, 63, 43, 97])]" time="0.0">
+      <testcase name="testExercise[(a = [99, 59, 60, 77, 73, 72, 19, 63, 43, 97])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [58, 4, 19, 17, 43, 55, 60, 78, 34, 77, 97, 47, 100, 58, 87])]" time="0.003">
+      <testcase name="testExercise[(a = [58, 4, 19, 17, 43, 55, 60, 78, 34, 77, 97, 47, 100, 58, 87])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [47, 92, 5, 25, 13])]" time="0.0">
+      <testcase name="testExercise[(a = [47, 92, 5, 25, 13])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [37, 51, 70, 88, 83, 7, 10, 71, 27, 39])]" time="0.0">
+      <testcase name="testExercise[(a = [37, 51, 70, 88, 83, 7, 10, 71, 27, 39])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [61, 27, 92, 27, 65, 95, 93, 22, 75, 27, 88, 14, 13, 22, 7])]" time="0.004">
+      <testcase name="testExercise[(a = [61, 27, 92, 27, 65, 95, 93, 22, 75, 27, 88, 14, 13, 22, 7])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [19, 28, 59, 47, 61])]" time="0.0">
+      <testcase name="testExercise[(a = [19, 28, 59, 47, 61])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [30, 64, 50, 68, 43, 78, 100, 92, 84, 80])]" time="0.0">
+      <testcase name="testExercise[(a = [30, 64, 50, 68, 43, 78, 100, 92, 84, 80])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [40, 75, 87, 46, 70, 22, 98, 9, 55, 98, 82, 55, 100, 34, 43])]" time="0.006">
+      <testcase name="testExercise[(a = [40, 75, 87, 46, 70, 22, 98, 9, 55, 98, 82, 55, 100, 34, 43])]" classname="tests.StrangePartitionerTest" time="0.006"/>
+    </testsuite>
+    <testsuite name="[(a = [93, 18, 71, 97, 64])]" time="0.0">
+      <testcase name="testExercise[(a = [93, 18, 71, 97, 64])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [93, 60, 27, 50, 30, 6, 26, 50, 4, 52])]" time="0.0">
+      <testcase name="testExercise[(a = [93, 60, 27, 50, 30, 6, 26, 50, 4, 52])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [47, 65, 36, 40, 93, 24, 57, 70, 15, 25, 95, 8, 51, 79, 85])]" time="0.007">
+      <testcase name="testExercise[(a = [47, 65, 36, 40, 93, 24, 57, 70, 15, 25, 95, 8, 51, 79, 85])]" classname="tests.StrangePartitionerTest" time="0.007"/>
+    </testsuite>
+    <testsuite name="[(a = [44, 76, 2, 73, 50])]" time="0.0">
+      <testcase name="testExercise[(a = [44, 76, 2, 73, 50])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [60, 60, 15, 67, 76, 64, 73, 5, 64, 78])]" time="0.0">
+      <testcase name="testExercise[(a = [60, 60, 15, 67, 76, 64, 73, 5, 64, 78])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [37, 36, 53, 75, 90, 23, 100, 2, 32, 57, 63, 100, 39, 18, 11])]" time="0.0">
+      <testcase name="testExercise[(a = [37, 36, 53, 75, 90, 23, 100, 2, 32, 57, 63, 100, 39, 18, 11])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [7, 57, 56, 47, 45])]" time="0.0">
+      <testcase name="testExercise[(a = [7, 57, 56, 47, 45])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [98, 43, 46, 66, 1, 84, 18, 75, 68, 40])]" time="0.001">
+      <testcase name="testExercise[(a = [98, 43, 46, 66, 1, 84, 18, 75, 68, 40])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [63, 99, 68, 1, 19, 9, 40, 19, 81, 29, 45, 71, 74, 80, 17])]" time="0.003">
+      <testcase name="testExercise[(a = [63, 99, 68, 1, 19, 9, 40, 19, 81, 29, 45, 71, 74, 80, 17])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [59, 29, 12, 62, 22])]" time="0.0">
+      <testcase name="testExercise[(a = [59, 29, 12, 62, 22])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [49, 1, 40, 35, 3, 26, 55, 24, 73, 88])]" time="0.0">
+      <testcase name="testExercise[(a = [49, 1, 40, 35, 3, 26, 55, 24, 73, 88])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [5, 8, 30, 42, 88, 10, 5, 17, 77, 50, 85, 25, 95, 44, 39])]" time="0.004">
+      <testcase name="testExercise[(a = [5, 8, 30, 42, 88, 10, 5, 17, 77, 50, 85, 25, 95, 44, 39])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [27, 36, 74, 16, 22])]" time="0.001">
+      <testcase name="testExercise[(a = [27, 36, 74, 16, 22])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [46, 98, 87, 95, 16, 94, 90, 32, 48, 100])]" time="0.0">
+      <testcase name="testExercise[(a = [46, 98, 87, 95, 16, 94, 90, 32, 48, 100])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [71, 38, 11, 40, 39, 87, 41, 61, 25, 19, 65, 6, 82, 67, 39])]" time="0.003">
+      <testcase name="testExercise[(a = [71, 38, 11, 40, 39, 87, 41, 61, 25, 19, 65, 6, 82, 67, 39])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [4, 90, 76, 82, 90])]" time="0.0">
+      <testcase name="testExercise[(a = [4, 90, 76, 82, 90])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [60, 35, 37, 36, 43, 80, 95, 73, 85, 73])]" time="0.0">
+      <testcase name="testExercise[(a = [60, 35, 37, 36, 43, 80, 95, 73, 85, 73])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [83, 49, 100, 2, 6, 37, 26, 41, 71, 37, 78, 54, 78, 11, 43])]" time="0.005">
+      <testcase name="testExercise[(a = [83, 49, 100, 2, 6, 37, 26, 41, 71, 37, 78, 54, 78, 11, 43])]" classname="tests.StrangePartitionerTest" time="0.005"/>
+    </testsuite>
+    <testsuite name="[(a = [100, 24, 57, 15, 10])]" time="0.0">
+      <testcase name="testExercise[(a = [100, 24, 57, 15, 10])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [33, 19, 74, 71, 65, 93, 73, 46, 98, 41])]" time="0.0">
+      <testcase name="testExercise[(a = [33, 19, 74, 71, 65, 93, 73, 46, 98, 41])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [24, 12, 91, 77, 86, 45, 93, 25, 4, 49, 100, 80, 10, 48, 68])]" time="0.004">
+      <testcase name="testExercise[(a = [24, 12, 91, 77, 86, 45, 93, 25, 4, 49, 100, 80, 10, 48, 68])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [16, 33, 78, 44, 99])]" time="0.0">
+      <testcase name="testExercise[(a = [16, 33, 78, 44, 99])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [2, 63, 18, 78, 83, 31, 93, 75, 31, 57])]" time="0.0">
+      <testcase name="testExercise[(a = [2, 63, 18, 78, 83, 31, 93, 75, 31, 57])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [30, 35, 59, 83, 47, 26, 93, 79, 65, 50, 12, 22, 27, 99, 92])]" time="0.003">
+      <testcase name="testExercise[(a = [30, 35, 59, 83, 47, 26, 93, 79, 65, 50, 12, 22, 27, 99, 92])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [13, 57, 15, 37, 23])]" time="0.0">
+      <testcase name="testExercise[(a = [13, 57, 15, 37, 23])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [20, 46, 100, 49, 79, 40, 27, 99, 86, 95])]" time="0.0">
+      <testcase name="testExercise[(a = [20, 46, 100, 49, 79, 40, 27, 99, 86, 95])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [9, 3, 33, 42, 47, 17, 21, 73, 52, 55, 41, 79, 72, 92, 51])]" time="0.003">
+      <testcase name="testExercise[(a = [9, 3, 33, 42, 47, 17, 21, 73, 52, 55, 41, 79, 72, 92, 51])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [87, 33, 70, 49, 87])]" time="0.0">
+      <testcase name="testExercise[(a = [87, 33, 70, 49, 87])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [13, 12, 9, 90, 9, 14, 74, 4, 91, 54])]" time="0.0">
+      <testcase name="testExercise[(a = [13, 12, 9, 90, 9, 14, 74, 4, 91, 54])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [93, 69, 16, 95, 62, 1, 60, 93, 39, 48, 12, 84, 25, 45, 94])]" time="0.004">
+      <testcase name="testExercise[(a = [93, 69, 16, 95, 62, 1, 60, 93, 39, 48, 12, 84, 25, 45, 94])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [97, 28, 81, 11, 91])]" time="0.002">
+      <testcase name="testExercise[(a = [97, 28, 81, 11, 91])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [77, 65, 59, 91, 32, 82, 97, 12, 100, 97])]" time="0.0">
+      <testcase name="testExercise[(a = [77, 65, 59, 91, 32, 82, 97, 12, 100, 97])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [58, 17, 68, 21, 64, 63, 92, 34, 25, 8, 83, 77, 18, 67, 90])]" time="0.003">
+      <testcase name="testExercise[(a = [58, 17, 68, 21, 64, 63, 92, 34, 25, 8, 83, 77, 18, 67, 90])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [100, 84, 83, 40, 33])]" time="0.0">
+      <testcase name="testExercise[(a = [100, 84, 83, 40, 33])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [31, 76, 65, 24, 16, 14, 38, 44, 35, 13])]" time="0.0">
+      <testcase name="testExercise[(a = [31, 76, 65, 24, 16, 14, 38, 44, 35, 13])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [36, 95, 93, 18, 98, 31, 96, 96, 45, 100, 78, 84, 10, 57, 10])]" time="0.002">
+      <testcase name="testExercise[(a = [36, 95, 93, 18, 98, 31, 96, 96, 45, 100, 78, 84, 10, 57, 10])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [71, 91, 2, 90, 38])]" time="0.0">
+      <testcase name="testExercise[(a = [71, 91, 2, 90, 38])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [99, 11, 10, 43, 21, 1, 91, 99, 76, 96])]" time="0.0">
+      <testcase name="testExercise[(a = [99, 11, 10, 43, 21, 1, 91, 99, 76, 96])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [66, 25, 19, 69, 47, 90, 75, 90, 30, 3, 42, 74, 59, 86, 93])]" time="0.003">
+      <testcase name="testExercise[(a = [66, 25, 19, 69, 47, 90, 75, 90, 30, 3, 42, 74, 59, 86, 93])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [47, 55, 11, 96, 32])]" time="0.0">
+      <testcase name="testExercise[(a = [47, 55, 11, 96, 32])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [72, 44, 71, 30, 84, 59, 51, 37, 7, 22])]" time="0.001">
+      <testcase name="testExercise[(a = [72, 44, 71, 30, 84, 59, 51, 37, 7, 22])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [9, 14, 92, 50, 40, 62, 86, 86, 79, 96, 29, 90, 86, 52, 18])]" time="0.003">
+      <testcase name="testExercise[(a = [9, 14, 92, 50, 40, 62, 86, 86, 79, 96, 29, 90, 86, 52, 18])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [76, 92, 87, 95, 69])]" time="0.0">
+      <testcase name="testExercise[(a = [76, 92, 87, 95, 69])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [49, 20, 90, 62, 30, 98, 41, 77, 2, 39])]" time="0.0">
+      <testcase name="testExercise[(a = [49, 20, 90, 62, 30, 98, 41, 77, 2, 39])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [76, 23, 44, 17, 89, 62, 67, 87, 45, 26, 92, 63, 96, 76, 60])]" time="0.003">
+      <testcase name="testExercise[(a = [76, 23, 44, 17, 89, 62, 67, 87, 45, 26, 92, 63, 96, 76, 60])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [81, 53, 86, 48, 50])]" time="0.0">
+      <testcase name="testExercise[(a = [81, 53, 86, 48, 50])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [24, 37, 53, 14, 28, 37, 25, 95, 81, 12])]" time="0.0">
+      <testcase name="testExercise[(a = [24, 37, 53, 14, 28, 37, 25, 95, 81, 12])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [29, 80, 97, 50, 88, 70, 47, 9, 90, 46, 13, 62, 37, 62, 98])]" time="0.003">
+      <testcase name="testExercise[(a = [29, 80, 97, 50, 88, 70, 47, 9, 90, 46, 13, 62, 37, 62, 98])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [24, 62, 10, 70, 16])]" time="0.0">
+      <testcase name="testExercise[(a = [24, 62, 10, 70, 16])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [4, 2, 94, 77, 82, 61, 29, 28, 92, 74])]" time="0.0">
+      <testcase name="testExercise[(a = [4, 2, 94, 77, 82, 61, 29, 28, 92, 74])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [98, 39, 83, 10, 82, 16, 29, 18, 35, 40, 99, 83, 33, 74, 38])]" time="0.003">
+      <testcase name="testExercise[(a = [98, 39, 83, 10, 82, 16, 29, 18, 35, 40, 99, 83, 33, 74, 38])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [85, 8, 99, 51, 75])]" time="0.0">
+      <testcase name="testExercise[(a = [85, 8, 99, 51, 75])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [73, 64, 47, 6, 38, 12, 12, 17, 68, 62])]" time="0.0">
+      <testcase name="testExercise[(a = [73, 64, 47, 6, 38, 12, 12, 17, 68, 62])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [70, 88, 88, 11, 30, 98, 2, 86, 44, 45, 88, 60, 74, 52, 35])]" time="0.003">
+      <testcase name="testExercise[(a = [70, 88, 88, 11, 30, 98, 2, 86, 44, 45, 88, 60, 74, 52, 35])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [84, 14, 33, 79, 54])]" time="0.0">
+      <testcase name="testExercise[(a = [84, 14, 33, 79, 54])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [35, 98, 72, 69, 78, 37, 24, 47, 85, 87])]" time="0.001">
+      <testcase name="testExercise[(a = [35, 98, 72, 69, 78, 37, 24, 47, 85, 87])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [45, 20, 56, 38, 83, 9, 90, 3, 65, 94, 32, 53, 27, 6, 12])]" time="0.003">
+      <testcase name="testExercise[(a = [45, 20, 56, 38, 83, 9, 90, 3, 65, 94, 32, 53, 27, 6, 12])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [22, 91, 6, 84, 27])]" time="0.0">
+      <testcase name="testExercise[(a = [22, 91, 6, 84, 27])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [36, 41, 63, 20, 20, 90, 5, 28, 32, 3])]" time="0.007">
+      <testcase name="testExercise[(a = [36, 41, 63, 20, 20, 90, 5, 28, 32, 3])]" classname="tests.StrangePartitionerTest" time="0.007"/>
+    </testsuite>
+    <testsuite name="[(a = [91, 81, 99, 40, 79, 53, 10, 10, 5, 61, 11, 75, 68, 73, 91])]" time="0.0">
+      <testcase name="testExercise[(a = [91, 81, 99, 40, 79, 53, 10, 10, 5, 61, 11, 75, 68, 73, 91])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [48, 76, 94, 94, 9])]" time="0.0">
+      <testcase name="testExercise[(a = [48, 76, 94, 94, 9])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [12, 54, 3, 38, 67, 53, 76, 7, 65, 40])]" time="0.0">
+      <testcase name="testExercise[(a = [12, 54, 3, 38, 67, 53, 76, 7, 65, 40])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [54, 85, 80, 4, 52, 47, 2, 91, 72, 89, 29, 5, 39, 31, 84])]" time="0.001">
+      <testcase name="testExercise[(a = [54, 85, 80, 4, 52, 47, 2, 91, 72, 89, 29, 5, 39, 31, 84])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [97, 8, 25, 61, 51])]" time="0.0">
+      <testcase name="testExercise[(a = [97, 8, 25, 61, 51])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [64, 13, 67, 23, 42, 17, 2, 62, 89, 39])]" time="0.0">
+      <testcase name="testExercise[(a = [64, 13, 67, 23, 42, 17, 2, 62, 89, 39])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [66, 59, 26, 72, 95, 63, 80, 10, 45, 61, 59, 33, 43, 7, 52])]" time="0.003">
+      <testcase name="testExercise[(a = [66, 59, 26, 72, 95, 63, 80, 10, 45, 61, 59, 33, 43, 7, 52])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [15, 82, 32, 81, 86])]" time="0.0">
+      <testcase name="testExercise[(a = [15, 82, 32, 81, 86])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [97, 32, 77, 8, 9, 59, 27, 22, 37, 65])]" time="0.0">
+      <testcase name="testExercise[(a = [97, 32, 77, 8, 9, 59, 27, 22, 37, 65])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [13, 2, 57, 11, 73, 32, 33, 3, 100, 23, 40, 81, 79, 94, 100])]" time="0.003">
+      <testcase name="testExercise[(a = [13, 2, 57, 11, 73, 32, 33, 3, 100, 23, 40, 81, 79, 94, 100])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [42, 37, 47, 58, 88])]" time="0.0">
+      <testcase name="testExercise[(a = [42, 37, 47, 58, 88])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [5, 77, 70, 32, 24, 95, 7, 13, 40, 80])]" time="0.0">
+      <testcase name="testExercise[(a = [5, 77, 70, 32, 24, 95, 7, 13, 40, 80])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [48, 69, 40, 78, 23, 15, 91, 65, 29, 71, 93, 14, 1, 47, 19])]" time="0.004">
+      <testcase name="testExercise[(a = [48, 69, 40, 78, 23, 15, 91, 65, 29, 71, 93, 14, 1, 47, 19])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [58, 86, 84, 58, 48])]" time="0.0">
+      <testcase name="testExercise[(a = [58, 86, 84, 58, 48])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [63, 81, 4, 41, 68, 19, 85, 56, 72, 4])]" time="0.0">
+      <testcase name="testExercise[(a = [63, 81, 4, 41, 68, 19, 85, 56, 72, 4])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [92, 35, 56, 18, 63, 17, 2, 44, 50, 62, 67, 97, 44, 68, 26])]" time="0.002">
+      <testcase name="testExercise[(a = [92, 35, 56, 18, 63, 17, 2, 44, 50, 62, 67, 97, 44, 68, 26])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [40, 24, 43, 15, 19])]" time="0.0">
+      <testcase name="testExercise[(a = [40, 24, 43, 15, 19])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [82, 2, 85, 69, 97, 44, 53, 89, 41, 49])]" time="0.0">
+      <testcase name="testExercise[(a = [82, 2, 85, 69, 97, 44, 53, 89, 41, 49])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [23, 82, 68, 6, 71, 77, 61, 60, 31, 28, 16, 3, 14, 9, 8])]" time="0.002">
+      <testcase name="testExercise[(a = [23, 82, 68, 6, 71, 77, 61, 60, 31, 28, 16, 3, 14, 9, 8])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [92, 27, 51, 11, 16])]" time="0.0">
+      <testcase name="testExercise[(a = [92, 27, 51, 11, 16])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [43, 90, 30, 46, 52, 6, 86, 31, 62, 34])]" time="0.0">
+      <testcase name="testExercise[(a = [43, 90, 30, 46, 52, 6, 86, 31, 62, 34])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [97, 23, 73, 16, 97, 75, 81, 31, 14, 93, 15, 67, 8, 67, 81])]" time="0.004">
+      <testcase name="testExercise[(a = [97, 23, 73, 16, 97, 75, 81, 31, 14, 93, 15, 67, 8, 67, 81])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [64, 8, 91, 74, 30])]" time="0.0">
+      <testcase name="testExercise[(a = [64, 8, 91, 74, 30])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [97, 48, 11, 60, 47, 80, 70, 27, 76, 1])]" time="0.0">
+      <testcase name="testExercise[(a = [97, 48, 11, 60, 47, 80, 70, 27, 76, 1])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [26, 44, 44, 63, 45, 5, 50, 90, 46, 23, 34, 16, 22, 82, 71])]" time="0.003">
+      <testcase name="testExercise[(a = [26, 44, 44, 63, 45, 5, 50, 90, 46, 23, 34, 16, 22, 82, 71])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [74, 6, 15, 45, 72])]" time="0.0">
+      <testcase name="testExercise[(a = [74, 6, 15, 45, 72])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [74, 63, 60, 76, 9, 10, 6, 6, 73, 54])]" time="0.0">
+      <testcase name="testExercise[(a = [74, 63, 60, 76, 9, 10, 6, 6, 73, 54])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [5, 11, 17, 28, 35, 61, 6, 24, 59, 4, 33, 99, 32, 45, 100])]" time="0.003">
+      <testcase name="testExercise[(a = [5, 11, 17, 28, 35, 61, 6, 24, 59, 4, 33, 99, 32, 45, 100])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [82, 82, 51, 64, 89])]" time="0.0">
+      <testcase name="testExercise[(a = [82, 82, 51, 64, 89])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [50, 83, 73, 76, 23, 7, 68, 49, 25, 86])]" time="0.0">
+      <testcase name="testExercise[(a = [50, 83, 73, 76, 23, 7, 68, 49, 25, 86])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [9, 32, 18, 6, 24, 61, 91, 4, 35, 81, 63, 33, 67, 92, 99])]" time="0.003">
+      <testcase name="testExercise[(a = [9, 32, 18, 6, 24, 61, 91, 4, 35, 81, 63, 33, 67, 92, 99])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [39, 23, 58, 75, 21])]" time="0.0">
+      <testcase name="testExercise[(a = [39, 23, 58, 75, 21])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [4, 3, 43, 58, 76, 58, 59, 36, 78, 63])]" time="0.0">
+      <testcase name="testExercise[(a = [4, 3, 43, 58, 76, 58, 59, 36, 78, 63])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [23, 37, 46, 80, 51, 66, 45, 62, 30, 99, 4, 9, 79, 37, 12])]" time="0.004">
+      <testcase name="testExercise[(a = [23, 37, 46, 80, 51, 66, 45, 62, 30, 99, 4, 9, 79, 37, 12])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [30, 24, 46, 60, 7])]" time="0.0">
+      <testcase name="testExercise[(a = [30, 24, 46, 60, 7])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [91, 20, 9, 99, 31, 9, 3, 14, 30, 94])]" time="0.0">
+      <testcase name="testExercise[(a = [91, 20, 9, 99, 31, 9, 3, 14, 30, 94])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [25, 73, 91, 35, 3, 81, 47, 91, 17, 84, 28, 10, 98, 78, 100])]" time="0.003">
+      <testcase name="testExercise[(a = [25, 73, 91, 35, 3, 81, 47, 91, 17, 84, 28, 10, 98, 78, 100])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [35, 69, 56, 24, 82])]" time="0.0">
+      <testcase name="testExercise[(a = [35, 69, 56, 24, 82])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [70, 72, 60, 35, 76, 4, 24, 23, 63, 41])]" time="0.001">
+      <testcase name="testExercise[(a = [70, 72, 60, 35, 76, 4, 24, 23, 63, 41])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [37, 17, 60, 37, 88, 57, 6, 83, 96, 99, 53, 47, 89, 32, 49])]" time="0.004">
+      <testcase name="testExercise[(a = [37, 17, 60, 37, 88, 57, 6, 83, 96, 99, 53, 47, 89, 32, 49])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [37, 11, 33, 12, 91])]" time="0.0">
+      <testcase name="testExercise[(a = [37, 11, 33, 12, 91])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [9, 26, 19, 15, 99, 71, 33, 13, 76, 98])]" time="0.0">
+      <testcase name="testExercise[(a = [9, 26, 19, 15, 99, 71, 33, 13, 76, 98])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [53, 28, 13, 47, 91, 59, 71, 40, 73, 36, 99, 55, 25, 79, 61])]" time="0.004">
+      <testcase name="testExercise[(a = [53, 28, 13, 47, 91, 59, 71, 40, 73, 36, 99, 55, 25, 79, 61])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [80, 1, 74, 40, 86])]" time="0.0">
+      <testcase name="testExercise[(a = [80, 1, 74, 40, 86])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [35, 10, 66, 46, 24, 14, 39, 43, 66, 4])]" time="0.0">
+      <testcase name="testExercise[(a = [35, 10, 66, 46, 24, 14, 39, 43, 66, 4])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [58, 98, 83, 84, 22, 50, 95, 35, 38, 73, 17, 49, 57, 25, 54])]" time="0.005">
+      <testcase name="testExercise[(a = [58, 98, 83, 84, 22, 50, 95, 35, 38, 73, 17, 49, 57, 25, 54])]" classname="tests.StrangePartitionerTest" time="0.005"/>
+    </testsuite>
+    <testsuite name="[(a = [90, 59, 11, 95, 6])]" time="0.0">
+      <testcase name="testExercise[(a = [90, 59, 11, 95, 6])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [24, 83, 36, 46, 75, 52, 28, 77, 81, 87])]" time="0.0">
+      <testcase name="testExercise[(a = [24, 83, 36, 46, 75, 52, 28, 77, 81, 87])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [86, 72, 44, 33, 30, 89, 99, 63, 65, 17, 6, 6, 79, 68, 87])]" time="0.004">
+      <testcase name="testExercise[(a = [86, 72, 44, 33, 30, 89, 99, 63, 65, 17, 6, 6, 79, 68, 87])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [51, 35, 74, 21, 65])]" time="0.0">
+      <testcase name="testExercise[(a = [51, 35, 74, 21, 65])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [86, 94, 10, 53, 18, 20, 40, 68, 87, 93])]" time="0.0">
+      <testcase name="testExercise[(a = [86, 94, 10, 53, 18, 20, 40, 68, 87, 93])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [68, 3, 12, 88, 33, 66, 12, 70, 6, 68, 71, 9, 8, 84, 86])]" time="0.004">
+      <testcase name="testExercise[(a = [68, 3, 12, 88, 33, 66, 12, 70, 6, 68, 71, 9, 8, 84, 86])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [91, 61, 59, 84, 27])]" time="0.0">
+      <testcase name="testExercise[(a = [91, 61, 59, 84, 27])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [92, 35, 77, 80, 71, 4, 15, 96, 53, 31])]" time="0.0">
+      <testcase name="testExercise[(a = [92, 35, 77, 80, 71, 4, 15, 96, 53, 31])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [92, 99, 91, 21, 76, 88, 89, 41, 84, 1, 15, 85, 52, 79, 17])]" time="0.005">
+      <testcase name="testExercise[(a = [92, 99, 91, 21, 76, 88, 89, 41, 84, 1, 15, 85, 52, 79, 17])]" classname="tests.StrangePartitionerTest" time="0.005"/>
+    </testsuite>
+    <testsuite name="[(a = [17, 32, 93, 71, 79])]" time="0.0">
+      <testcase name="testExercise[(a = [17, 32, 93, 71, 79])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [13, 100, 25, 58, 87, 54, 53, 75, 52, 59])]" time="0.0">
+      <testcase name="testExercise[(a = [13, 100, 25, 58, 87, 54, 53, 75, 52, 59])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [81, 16, 15, 76, 15, 90, 64, 80, 13, 46, 71, 31, 16, 98, 36])]" time="0.004">
+      <testcase name="testExercise[(a = [81, 16, 15, 76, 15, 90, 64, 80, 13, 46, 71, 31, 16, 98, 36])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [6, 96, 62, 82, 89])]" time="0.001">
+      <testcase name="testExercise[(a = [6, 96, 62, 82, 89])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [16, 7, 21, 68, 13, 39, 33, 38, 49, 28])]" time="0.0">
+      <testcase name="testExercise[(a = [16, 7, 21, 68, 13, 39, 33, 38, 49, 28])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [19, 21, 76, 88, 77, 68, 28, 93, 73, 81, 30, 86, 14, 35, 51])]" time="0.004">
+      <testcase name="testExercise[(a = [19, 21, 76, 88, 77, 68, 28, 93, 73, 81, 30, 86, 14, 35, 51])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [96, 76, 42, 72, 33])]" time="0.0">
+      <testcase name="testExercise[(a = [96, 76, 42, 72, 33])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [9, 15, 19, 75, 23, 32, 45, 87, 46, 2])]" time="0.0">
+      <testcase name="testExercise[(a = [9, 15, 19, 75, 23, 32, 45, 87, 46, 2])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [91, 51, 74, 48, 13, 75, 40, 27, 23, 88, 97, 80, 12, 92, 45])]" time="0.004">
+      <testcase name="testExercise[(a = [91, 51, 74, 48, 13, 75, 40, 27, 23, 88, 97, 80, 12, 92, 45])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [89, 72, 49, 19, 7])]" time="0.0">
+      <testcase name="testExercise[(a = [89, 72, 49, 19, 7])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [32, 45, 48, 32, 67, 58, 95, 39, 85, 90])]" time="0.0">
+      <testcase name="testExercise[(a = [32, 45, 48, 32, 67, 58, 95, 39, 85, 90])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [12, 4, 73, 95, 75, 18, 50, 67, 29, 85, 97, 75, 36, 19, 15])]" time="0.003">
+      <testcase name="testExercise[(a = [12, 4, 73, 95, 75, 18, 50, 67, 29, 85, 97, 75, 36, 19, 15])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [56, 91, 75, 27, 4])]" time="0.0">
+      <testcase name="testExercise[(a = [56, 91, 75, 27, 4])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [96, 5, 51, 72, 75, 67, 75, 2, 44, 30])]" time="0.0">
+      <testcase name="testExercise[(a = [96, 5, 51, 72, 75, 67, 75, 2, 44, 30])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [76, 2, 29, 54, 94, 31, 31, 98, 14, 43, 77, 48, 79, 82, 29])]" time="0.003">
+      <testcase name="testExercise[(a = [76, 2, 29, 54, 94, 31, 31, 98, 14, 43, 77, 48, 79, 82, 29])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [9, 53, 78, 94, 100])]" time="0.0">
+      <testcase name="testExercise[(a = [9, 53, 78, 94, 100])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [61, 5, 40, 66, 38, 33, 18, 59, 73, 74])]" time="0.0">
+      <testcase name="testExercise[(a = [61, 5, 40, 66, 38, 33, 18, 59, 73, 74])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [9, 17, 72, 70, 98, 99, 33, 38, 83, 47, 16, 17, 90, 14, 81])]" time="0.003">
+      <testcase name="testExercise[(a = [9, 17, 72, 70, 98, 99, 33, 38, 83, 47, 16, 17, 90, 14, 81])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [86, 20, 60, 86, 57])]" time="0.0">
+      <testcase name="testExercise[(a = [86, 20, 60, 86, 57])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [68, 56, 58, 40, 24, 14, 11, 8, 89, 51])]" time="0.001">
+      <testcase name="testExercise[(a = [68, 56, 58, 40, 24, 14, 11, 8, 89, 51])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [25, 43, 80, 77, 95, 68, 37, 40, 42, 7, 4, 49, 81, 16, 47])]" time="0.003">
+      <testcase name="testExercise[(a = [25, 43, 80, 77, 95, 68, 37, 40, 42, 7, 4, 49, 81, 16, 47])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [22, 75, 49, 34, 48])]" time="0.0">
+      <testcase name="testExercise[(a = [22, 75, 49, 34, 48])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [38, 89, 71, 90, 94, 14, 30, 55, 97, 71])]" time="0.0">
+      <testcase name="testExercise[(a = [38, 89, 71, 90, 94, 14, 30, 55, 97, 71])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [37, 95, 63, 81, 49, 77, 9, 73, 18, 71, 66, 80, 32, 65, 16])]" time="0.003">
+      <testcase name="testExercise[(a = [37, 95, 63, 81, 49, 77, 9, 73, 18, 71, 66, 80, 32, 65, 16])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [80, 13, 17, 99, 83])]" time="0.0">
+      <testcase name="testExercise[(a = [80, 13, 17, 99, 83])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [96, 94, 43, 2, 2, 6, 22, 43, 38, 98])]" time="0.0">
+      <testcase name="testExercise[(a = [96, 94, 43, 2, 2, 6, 22, 43, 38, 98])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [53, 57, 30, 80, 59, 89, 80, 23, 32, 54, 28, 42, 93, 4, 18])]" time="0.003">
+      <testcase name="testExercise[(a = [53, 57, 30, 80, 59, 89, 80, 23, 32, 54, 28, 42, 93, 4, 18])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [12, 94, 83, 89, 50])]" time="0.0">
+      <testcase name="testExercise[(a = [12, 94, 83, 89, 50])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [78, 44, 59, 79, 10, 13, 36, 96, 78, 79])]" time="0.0">
+      <testcase name="testExercise[(a = [78, 44, 59, 79, 10, 13, 36, 96, 78, 79])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [43, 98, 18, 44, 67, 97, 8, 56, 6, 29, 63, 93, 63, 45, 19])]" time="0.003">
+      <testcase name="testExercise[(a = [43, 98, 18, 44, 67, 97, 8, 56, 6, 29, 63, 93, 63, 45, 19])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [21, 12, 71, 62, 88])]" time="0.0">
+      <testcase name="testExercise[(a = [21, 12, 71, 62, 88])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [77, 95, 81, 46, 67, 79, 15, 4, 64, 85])]" time="0.0">
+      <testcase name="testExercise[(a = [77, 95, 81, 46, 67, 79, 15, 4, 64, 85])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [20, 53, 98, 16, 86, 70, 4, 16, 43, 30, 53, 22, 36, 26, 31])]" time="0.004">
+      <testcase name="testExercise[(a = [20, 53, 98, 16, 86, 70, 4, 16, 43, 30, 53, 22, 36, 26, 31])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [34, 49, 70, 60, 11])]" time="0.0">
+      <testcase name="testExercise[(a = [34, 49, 70, 60, 11])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [85, 15, 76, 96, 93, 98, 39, 24, 22, 32])]" time="0.0">
+      <testcase name="testExercise[(a = [85, 15, 76, 96, 93, 98, 39, 24, 22, 32])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [75, 12, 80, 49, 75, 17, 3, 66, 13, 95, 81, 24, 87, 59, 2])]" time="0.004">
+      <testcase name="testExercise[(a = [75, 12, 80, 49, 75, 17, 3, 66, 13, 95, 81, 24, 87, 59, 2])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [14, 1, 57, 14, 29])]" time="0.0">
+      <testcase name="testExercise[(a = [14, 1, 57, 14, 29])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [36, 47, 98, 49, 3, 33, 24, 74, 80, 86])]" time="0.0">
+      <testcase name="testExercise[(a = [36, 47, 98, 49, 3, 33, 24, 74, 80, 86])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [21, 61, 55, 27, 49, 1, 63, 88, 95, 23, 64, 13, 79, 45, 84])]" time="0.006">
+      <testcase name="testExercise[(a = [21, 61, 55, 27, 49, 1, 63, 88, 95, 23, 64, 13, 79, 45, 84])]" classname="tests.StrangePartitionerTest" time="0.006"/>
+    </testsuite>
+    <testsuite name="[(a = [78, 36, 36, 58, 25])]" time="0.0">
+      <testcase name="testExercise[(a = [78, 36, 36, 58, 25])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [20, 67, 94, 19, 1, 55, 32, 22, 29, 1])]" time="0.0">
+      <testcase name="testExercise[(a = [20, 67, 94, 19, 1, 55, 32, 22, 29, 1])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [14, 88, 100, 12, 12, 22, 89, 11, 78, 73, 11, 73, 31, 27, 30])]" time="0.001">
+      <testcase name="testExercise[(a = [14, 88, 100, 12, 12, 22, 89, 11, 78, 73, 11, 73, 31, 27, 30])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [44, 31, 71, 61, 4])]" time="0.0">
+      <testcase name="testExercise[(a = [44, 31, 71, 61, 4])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [95, 98, 16, 32, 48, 95, 65, 38, 70, 34])]" time="0.0">
+      <testcase name="testExercise[(a = [95, 98, 16, 32, 48, 95, 65, 38, 70, 34])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [65, 75, 45, 39, 35, 52, 26, 79, 62, 99, 6, 46, 3, 7, 24])]" time="0.003">
+      <testcase name="testExercise[(a = [65, 75, 45, 39, 35, 52, 26, 79, 62, 99, 6, 46, 3, 7, 24])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [56, 72, 96, 47, 80])]" time="0.004">
+      <testcase name="testExercise[(a = [56, 72, 96, 47, 80])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [10, 12, 24, 98, 90, 60, 76, 2, 70, 9])]" time="0.0">
+      <testcase name="testExercise[(a = [10, 12, 24, 98, 90, 60, 76, 2, 70, 9])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [45, 36, 66, 100, 43, 97, 10, 93, 26, 47, 89, 76, 73, 1, 21])]" time="0.0">
+      <testcase name="testExercise[(a = [45, 36, 66, 100, 43, 97, 10, 93, 26, 47, 89, 76, 73, 1, 21])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [9, 47, 85, 35, 1])]" time="0.0">
+      <testcase name="testExercise[(a = [9, 47, 85, 35, 1])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [27, 24, 2, 1, 15, 52, 94, 8, 45, 80])]" time="0.0">
+      <testcase name="testExercise[(a = [27, 24, 2, 1, 15, 52, 94, 8, 45, 80])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [70, 91, 31, 66, 44, 54, 50, 54, 57, 27, 90, 43, 36, 34, 29])]" time="0.004">
+      <testcase name="testExercise[(a = [70, 91, 31, 66, 44, 54, 50, 54, 57, 27, 90, 43, 36, 34, 29])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [68, 40, 20, 78, 2])]" time="0.0">
+      <testcase name="testExercise[(a = [68, 40, 20, 78, 2])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [98, 14, 22, 45, 50, 51, 59, 50, 84, 12])]" time="0.001">
+      <testcase name="testExercise[(a = [98, 14, 22, 45, 50, 51, 59, 50, 84, 12])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [71, 61, 70, 38, 86, 25, 18, 81, 20, 43, 25, 81, 69, 81, 18])]" time="0.003">
+      <testcase name="testExercise[(a = [71, 61, 70, 38, 86, 25, 18, 81, 20, 43, 25, 81, 69, 81, 18])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [74, 71, 56, 5, 23])]" time="0.0">
+      <testcase name="testExercise[(a = [74, 71, 56, 5, 23])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [74, 52, 82, 95, 29, 79, 88, 5, 55, 39])]" time="0.0">
+      <testcase name="testExercise[(a = [74, 52, 82, 95, 29, 79, 88, 5, 55, 39])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [93, 74, 91, 72, 49, 90, 27, 99, 67, 6, 76, 80, 73, 95, 38])]" time="0.004">
+      <testcase name="testExercise[(a = [93, 74, 91, 72, 49, 90, 27, 99, 67, 6, 76, 80, 73, 95, 38])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [18, 36, 52, 80, 20])]" time="0.0">
+      <testcase name="testExercise[(a = [18, 36, 52, 80, 20])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [8, 57, 9, 21, 66, 92, 15, 59, 29, 7])]" time="0.0">
+      <testcase name="testExercise[(a = [8, 57, 9, 21, 66, 92, 15, 59, 29, 7])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [26, 34, 30, 68, 70, 68, 88, 45, 21, 1, 3, 70, 93, 19, 87])]" time="0.003">
+      <testcase name="testExercise[(a = [26, 34, 30, 68, 70, 68, 88, 45, 21, 1, 3, 70, 93, 19, 87])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [35, 75, 36, 35, 46])]" time="0.001">
+      <testcase name="testExercise[(a = [35, 75, 36, 35, 46])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [87, 52, 87, 54, 24, 45, 22, 37, 67, 33])]" time="0.0">
+      <testcase name="testExercise[(a = [87, 52, 87, 54, 24, 45, 22, 37, 67, 33])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [43, 73, 52, 56, 95, 78, 29, 83, 36, 60, 4, 44, 76, 5, 12])]" time="0.01">
+      <testcase name="testExercise[(a = [43, 73, 52, 56, 95, 78, 29, 83, 36, 60, 4, 44, 76, 5, 12])]" classname="tests.StrangePartitionerTest" time="0.01"/>
+    </testsuite>
+    <testsuite name="[(a = [41, 22, 17, 56, 38])]" time="0.0">
+      <testcase name="testExercise[(a = [41, 22, 17, 56, 38])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [84, 56, 66, 99, 45, 99, 12, 38, 86, 78])]" time="0.0">
+      <testcase name="testExercise[(a = [84, 56, 66, 99, 45, 99, 12, 38, 86, 78])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [64, 17, 63, 83, 37, 99, 30, 53, 100, 11, 92, 72, 29, 37, 3])]" time="0.0">
+      <testcase name="testExercise[(a = [64, 17, 63, 83, 37, 99, 30, 53, 100, 11, 92, 72, 29, 37, 3])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [15, 72, 63, 74, 65])]" time="0.0">
+      <testcase name="testExercise[(a = [15, 72, 63, 74, 65])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [83, 78, 88, 27, 51, 2, 9, 22, 25, 55])]" time="0.0">
+      <testcase name="testExercise[(a = [83, 78, 88, 27, 51, 2, 9, 22, 25, 55])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [41, 32, 72, 64, 17, 2, 97, 15, 86, 92, 2, 11, 23, 53, 30])]" time="0.001">
+      <testcase name="testExercise[(a = [41, 32, 72, 64, 17, 2, 97, 15, 86, 92, 2, 11, 23, 53, 30])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [100, 13, 96, 71, 74])]" time="0.0">
+      <testcase name="testExercise[(a = [100, 13, 96, 71, 74])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [65, 94, 38, 12, 20, 92, 72, 69, 92, 6])]" time="0.0">
+      <testcase name="testExercise[(a = [65, 94, 38, 12, 20, 92, 72, 69, 92, 6])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [4, 71, 35, 60, 66, 65, 81, 21, 68, 31, 22, 55, 46, 33, 93])]" time="0.003">
+      <testcase name="testExercise[(a = [4, 71, 35, 60, 66, 65, 81, 21, 68, 31, 22, 55, 46, 33, 93])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [82, 19, 14, 33, 78])]" time="0.0">
+      <testcase name="testExercise[(a = [82, 19, 14, 33, 78])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [52, 98, 69, 14, 50, 72, 78, 46, 29, 60])]" time="0.0">
+      <testcase name="testExercise[(a = [52, 98, 69, 14, 50, 72, 78, 46, 29, 60])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [2, 25, 38, 89, 21, 74, 81, 70, 57, 26, 52, 85, 22, 97, 64])]" time="0.003">
+      <testcase name="testExercise[(a = [2, 25, 38, 89, 21, 74, 81, 70, 57, 26, 52, 85, 22, 97, 64])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [78, 30, 45, 7, 88])]" time="0.0">
+      <testcase name="testExercise[(a = [78, 30, 45, 7, 88])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [84, 86, 9, 74, 47, 61, 5, 69, 72, 42])]" time="0.0">
+      <testcase name="testExercise[(a = [84, 86, 9, 74, 47, 61, 5, 69, 72, 42])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [75, 7, 58, 7, 43, 73, 21, 61, 82, 38, 85, 94, 72, 93, 46])]" time="0.004">
+      <testcase name="testExercise[(a = [75, 7, 58, 7, 43, 73, 21, 61, 82, 38, 85, 94, 72, 93, 46])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [24, 63, 71, 11, 58])]" time="0.0">
+      <testcase name="testExercise[(a = [24, 63, 71, 11, 58])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [42, 56, 8, 33, 25, 74, 20, 54, 64, 18])]" time="0.0">
+      <testcase name="testExercise[(a = [42, 56, 8, 33, 25, 74, 20, 54, 64, 18])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [26, 11, 37, 58, 45, 21, 71, 6, 13, 39, 61, 9, 67, 6, 67])]" time="0.005">
+      <testcase name="testExercise[(a = [26, 11, 37, 58, 45, 21, 71, 6, 13, 39, 61, 9, 67, 6, 67])]" classname="tests.StrangePartitionerTest" time="0.005"/>
+    </testsuite>
+    <testsuite name="[(a = [34, 94, 79, 100, 72])]" time="0.0">
+      <testcase name="testExercise[(a = [34, 94, 79, 100, 72])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [71, 22, 88, 95, 26, 33, 33, 30, 61, 76])]" time="0.0">
+      <testcase name="testExercise[(a = [71, 22, 88, 95, 26, 33, 33, 30, 61, 76])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [19, 93, 18, 11, 57, 39, 85, 90, 42, 71, 50, 30, 61, 3, 24])]" time="0.001">
+      <testcase name="testExercise[(a = [19, 93, 18, 11, 57, 39, 85, 90, 42, 71, 50, 30, 61, 3, 24])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [95, 99, 67, 10, 53])]" time="0.0">
+      <testcase name="testExercise[(a = [95, 99, 67, 10, 53])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [91, 100, 43, 90, 8, 73, 6, 44, 97, 5])]" time="0.0">
+      <testcase name="testExercise[(a = [91, 100, 43, 90, 8, 73, 6, 44, 97, 5])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [11, 77, 64, 97, 34, 98, 56, 52, 36, 25, 97, 62, 95, 68, 21])]" time="0.004">
+      <testcase name="testExercise[(a = [11, 77, 64, 97, 34, 98, 56, 52, 36, 25, 97, 62, 95, 68, 21])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [41, 77, 14, 95, 68])]" time="0.0">
+      <testcase name="testExercise[(a = [41, 77, 14, 95, 68])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [94, 17, 37, 89, 16, 73, 94, 14, 73, 35])]" time="0.0">
+      <testcase name="testExercise[(a = [94, 17, 37, 89, 16, 73, 94, 14, 73, 35])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [26, 68, 21, 10, 98, 69, 54, 22, 27, 85, 17, 92, 85, 11, 89])]" time="0.004">
+      <testcase name="testExercise[(a = [26, 68, 21, 10, 98, 69, 54, 22, 27, 85, 17, 92, 85, 11, 89])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [27, 50, 97, 51, 28])]" time="0.0">
+      <testcase name="testExercise[(a = [27, 50, 97, 51, 28])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [8, 93, 55, 80, 76, 70, 25, 62, 3, 100])]" time="0.0">
+      <testcase name="testExercise[(a = [8, 93, 55, 80, 76, 70, 25, 62, 3, 100])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [32, 69, 3, 14, 23, 82, 51, 7, 58, 48, 49, 60, 54, 95, 65])]" time="0.004">
+      <testcase name="testExercise[(a = [32, 69, 3, 14, 23, 82, 51, 7, 58, 48, 49, 60, 54, 95, 65])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [51, 41, 67, 26, 68])]" time="0.0">
+      <testcase name="testExercise[(a = [51, 41, 67, 26, 68])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [6, 33, 7, 69, 79, 74, 63, 71, 60, 79])]" time="0.0">
+      <testcase name="testExercise[(a = [6, 33, 7, 69, 79, 74, 63, 71, 60, 79])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [31, 84, 22, 27, 54, 91, 19, 38, 32, 20, 60, 5, 31, 95, 60])]" time="0.002">
+      <testcase name="testExercise[(a = [31, 84, 22, 27, 54, 91, 19, 38, 32, 20, 60, 5, 31, 95, 60])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [92, 43, 94, 37, 21])]" time="0.0">
+      <testcase name="testExercise[(a = [92, 43, 94, 37, 21])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [14, 73, 92, 100, 86, 8, 24, 66, 77, 51])]" time="0.001">
+      <testcase name="testExercise[(a = [14, 73, 92, 100, 86, 8, 24, 66, 77, 51])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [2, 50, 3, 40, 90, 41, 22, 69, 2, 67, 8, 5, 67, 53, 74])]" time="0.002">
+      <testcase name="testExercise[(a = [2, 50, 3, 40, 90, 41, 22, 69, 2, 67, 8, 5, 67, 53, 74])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [100, 27, 27, 22, 41])]" time="0.0">
+      <testcase name="testExercise[(a = [100, 27, 27, 22, 41])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [87, 90, 17, 75, 31, 42, 7, 43, 41, 88])]" time="0.0">
+      <testcase name="testExercise[(a = [87, 90, 17, 75, 31, 42, 7, 43, 41, 88])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [42, 48, 86, 6, 99, 31, 97, 64, 87, 20, 97, 31, 100, 48, 62])]" time="0.005">
+      <testcase name="testExercise[(a = [42, 48, 86, 6, 99, 31, 97, 64, 87, 20, 97, 31, 100, 48, 62])]" classname="tests.StrangePartitionerTest" time="0.005"/>
+    </testsuite>
+    <testsuite name="[(a = [86, 68, 92, 54, 99])]" time="0.0">
+      <testcase name="testExercise[(a = [86, 68, 92, 54, 99])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [89, 17, 84, 76, 47, 33, 16, 9, 59, 94])]" time="0.0">
+      <testcase name="testExercise[(a = [89, 17, 84, 76, 47, 33, 16, 9, 59, 94])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [21, 97, 90, 67, 88, 7, 91, 4, 42, 61, 94, 29, 27, 22, 13])]" time="0.003">
+      <testcase name="testExercise[(a = [21, 97, 90, 67, 88, 7, 91, 4, 42, 61, 94, 29, 27, 22, 13])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [50, 13, 48, 2, 36])]" time="0.0">
+      <testcase name="testExercise[(a = [50, 13, 48, 2, 36])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [95, 43, 21, 21, 96, 33, 22, 69, 49, 6])]" time="0.0">
+      <testcase name="testExercise[(a = [95, 43, 21, 21, 96, 33, 22, 69, 49, 6])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [50, 54, 67, 61, 29, 77, 34, 92, 16, 10, 15, 19, 15, 34, 8])]" time="0.003">
+      <testcase name="testExercise[(a = [50, 54, 67, 61, 29, 77, 34, 92, 16, 10, 15, 19, 15, 34, 8])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [44, 83, 77, 3, 81])]" time="0.0">
+      <testcase name="testExercise[(a = [44, 83, 77, 3, 81])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [10, 14, 32, 45, 15, 17, 81, 43, 91, 74])]" time="0.0">
+      <testcase name="testExercise[(a = [10, 14, 32, 45, 15, 17, 81, 43, 91, 74])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [91, 37, 14, 8, 84, 67, 58, 45, 38, 56, 70, 50, 76, 92, 35])]" time="0.002">
+      <testcase name="testExercise[(a = [91, 37, 14, 8, 84, 67, 58, 45, 38, 56, 70, 50, 76, 92, 35])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [80, 69, 17, 55, 39])]" time="0.0">
+      <testcase name="testExercise[(a = [80, 69, 17, 55, 39])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [94, 99, 33, 15, 77, 81, 44, 36, 24, 24])]" time="0.0">
+      <testcase name="testExercise[(a = [94, 99, 33, 15, 77, 81, 44, 36, 24, 24])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [77, 23, 46, 71, 56, 67, 9, 53, 85, 87, 63, 43, 28, 43, 53])]" time="0.003">
+      <testcase name="testExercise[(a = [77, 23, 46, 71, 56, 67, 9, 53, 85, 87, 63, 43, 28, 43, 53])]" classname="tests.StrangePartitionerTest" time="0.003"/>
+    </testsuite>
+    <testsuite name="[(a = [65, 60, 12, 87, 9])]" time="0.0">
+      <testcase name="testExercise[(a = [65, 60, 12, 87, 9])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [83, 90, 4, 83, 13, 53, 92, 74, 44, 9])]" time="0.001">
+      <testcase name="testExercise[(a = [83, 90, 4, 83, 13, 53, 92, 74, 44, 9])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [5, 51, 52, 29, 61, 40, 8, 32, 46, 72, 89, 49, 7, 79, 84])]" time="0.004">
+      <testcase name="testExercise[(a = [5, 51, 52, 29, 61, 40, 8, 32, 46, 72, 89, 49, 7, 79, 84])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [25, 73, 46, 52, 78])]" time="0.0">
+      <testcase name="testExercise[(a = [25, 73, 46, 52, 78])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [63, 93, 52, 53, 21, 100, 8, 8, 40, 87])]" time="0.0">
+      <testcase name="testExercise[(a = [63, 93, 52, 53, 21, 100, 8, 8, 40, 87])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [14, 29, 85, 14, 35, 12, 60, 51, 25, 87, 47, 70, 94, 12, 17])]" time="0.004">
+      <testcase name="testExercise[(a = [14, 29, 85, 14, 35, 12, 60, 51, 25, 87, 47, 70, 94, 12, 17])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [17, 25, 63, 11, 75])]" time="0.0">
+      <testcase name="testExercise[(a = [17, 25, 63, 11, 75])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [92, 72, 9, 25, 34, 73, 31, 54, 34, 94])]" time="0.0">
+      <testcase name="testExercise[(a = [92, 72, 9, 25, 34, 73, 31, 54, 34, 94])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [58, 32, 52, 27, 24, 95, 12, 2, 100, 37, 88, 8, 1, 100, 73])]" time="0.002">
+      <testcase name="testExercise[(a = [58, 32, 52, 27, 24, 95, 12, 2, 100, 37, 88, 8, 1, 100, 73])]" classname="tests.StrangePartitionerTest" time="0.002"/>
+    </testsuite>
+    <testsuite name="[(a = [22, 23, 12, 25, 5])]" time="0.0">
+      <testcase name="testExercise[(a = [22, 23, 12, 25, 5])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [71, 75, 59, 88, 71, 53, 61, 93, 82, 56])]" time="0.0">
+      <testcase name="testExercise[(a = [71, 75, 59, 88, 71, 53, 61, 93, 82, 56])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [30, 50, 58, 7, 9, 85, 17, 69, 87, 58, 48, 20, 54, 5, 57])]" time="0.004">
+      <testcase name="testExercise[(a = [30, 50, 58, 7, 9, 85, 17, 69, 87, 58, 48, 20, 54, 5, 57])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [54, 78, 42, 96, 20])]" time="0.0">
+      <testcase name="testExercise[(a = [54, 78, 42, 96, 20])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [61, 50, 83, 6, 48, 12, 64, 48, 23, 54])]" time="0.001">
+      <testcase name="testExercise[(a = [61, 50, 83, 6, 48, 12, 64, 48, 23, 54])]" classname="tests.StrangePartitionerTest" time="0.001"/>
+    </testsuite>
+    <testsuite name="[(a = [63, 18, 48, 58, 48, 60, 76, 65, 61, 32, 49, 17, 88, 5, 6])]" time="0.004">
+      <testcase name="testExercise[(a = [63, 18, 48, 58, 48, 60, 76, 65, 61, 32, 49, 17, 88, 5, 6])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+    <testsuite name="[(a = [81, 71, 22, 93, 31])]" time="0.0">
+      <testcase name="testExercise[(a = [81, 71, 22, 93, 31])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [44, 28, 59, 37, 32, 63, 95, 27, 47, 55])]" time="0.0">
+      <testcase name="testExercise[(a = [44, 28, 59, 37, 32, 63, 95, 27, 47, 55])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [99, 24, 12, 78, 74, 84, 82, 75, 82, 68, 46, 57, 75, 68, 52])]" time="0.005">
+      <testcase name="testExercise[(a = [99, 24, 12, 78, 74, 84, 82, 75, 82, 68, 46, 57, 75, 68, 52])]" classname="tests.StrangePartitionerTest" time="0.005"/>
+    </testsuite>
+    <testsuite name="[(a = [1, 52, 29, 74, 77])]" time="0.0">
+      <testcase name="testExercise[(a = [1, 52, 29, 74, 77])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [13, 52, 14, 95, 64, 75, 14, 90, 45, 52])]" time="0.0">
+      <testcase name="testExercise[(a = [13, 52, 14, 95, 64, 75, 14, 90, 45, 52])]" classname="tests.StrangePartitionerTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[(a = [13, 80, 3, 44, 53, 47, 63, 44, 37, 83, 36, 17, 65, 66, 49])]" time="0.004">
+      <testcase name="testExercise[(a = [13, 80, 3, 44, 53, 47, 63, 44, 37, 83, 36, 17, 65, 66, 49])]" classname="tests.StrangePartitionerTest" time="0.004"/>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,23 @@
+boolean strangePartition(int[] a) {
+	return false;
+}
+
+boolean odd(int n){
+	boolean ris = false;
+	ris = n % 2 != 0;
+	return ris;
+}
+
+
+boolean multipleOfTen(int n){
+	boolean ris = false;
+	ris = n % 10 == 0;
+	return ris;
+}
+
+
+int sumArray(int[] a, int[] binary, int c){
+	int[] b = new 
+	
+	return b;
+}
